@@ -7,7 +7,7 @@ from time import sleep
 # Proprietary and confidential
 # Written by Anasov <me@anasov.ly>, 05, May, 2024.
 
-BASE_URL: str = "https://www.cpmewan.com/api"
+BASE_URL: str = "https://cpmewan.com/api"
 
 class CPMEwan:
 
