@@ -50,6 +50,40 @@ def banner(console):
             else:
                 gradient_text.append(char)
         gradient_text.append("\n")
+        
+        def banner(console):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    ascii_art = """
+▓█████  █     █░ ▄▄▄       ███▄    █     ██ ▄█▀ █    ██  ██▀███  ▓█████▄  ██▓  ██████  ██░ ██    
+▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █     ██▄█▒  ██  ▓██▒▓██ ▒ ██▒▒██▀ ██▌▓██▒▒██    ▒ ▓██░ ██▒   
+▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒   ▓███▄░ ▓██  ▒██░▓██ ░▄█ ▒░██   █▌▒██▒░ ▓██▄   ▒██▀▀██░   
+▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒   ▓██ █▄ ▓▓█  ░██░▒██▀▀█▄  ░▓█▄   ▌░██░  ▒   ██▒░▓█ ░██    
+░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░   ▒██▒ █▄▒▒█████▓ ░██▓ ▒██▒░▒████▓ ░██░▒██████▒▒░▓█▒░██▓   
+░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒    ▒ ▒▒ ▓▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒   
+ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░   ░ ░▒ ▒░░░▒░ ░ ░   ░▒ ░ ▒░ ░ ▒  ▒  ▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░   
+   ░     ░   ░    ░   ▒      ░   ░ ░    ░ ░░ ░  ░░░ ░ ░   ░░   ░  ░ ░  ░  ▒ ░░  ░  ░   ░  ░░ ░   
+   ░  ░    ░          ░  ░         ░    ░  ░      ░        ░        ░     ░        ░   ░  ░  ░   
+                                                                  ░                              """
+    start_color = Color.parse("#28e99a")
+    end_color = Color.parse("#cbd31a")
+    start_rgb = np.array(start_color.triplet)
+    end_rgb = np.array(end_color.triplet)
+    lines = ascii_art.split("\n")
+    max_len = max(len(line) for line in lines)
+    num_lines = len(lines)
+    gradient_text = Text()
+    for y, line in enumerate(lines):
+        for x, char in enumerate(line):
+            if char.strip():
+                position = (y / num_lines + x / max_len) / 2
+                color_rgb = start_rgb + position * (end_rgb - start_rgb)
+                color_hex = '#{:02x}{:02x}{:02x}'.format(int(color_rgb[0]), int(color_rgb[1]), int(color_rgb[2]))
+                gradient_text.append(char, style=color_hex)
+            else:
+                gradient_text.append(char)
+        gradient_text.append("\n")
+
+        
     console.print(gradient_text)
     console.print("\t\t\t        [bold green]♕ CPMEwan ♕[/bold green]")
     console.print("\t\t    Car Parking Multiplayer Hacking Tool")
