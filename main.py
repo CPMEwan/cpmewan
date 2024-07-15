@@ -9,10 +9,10 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-from cpmking import CPMKing
+from cpmewan import CPMEwan
 
-__CHANNEL_USERNAME__ = "offsetscript"
-__GROUP_USERNAME__ = "offsetscript"
+__CHANNEL_USERNAME__ = "Ewan1999Ewan"
+__GROUP_USERNAME__ = "Ewan19_99Ewan"
 
 
 def signal_handler(sig, frame):
@@ -50,18 +50,17 @@ def banner(console):
             else:
                 gradient_text.append(char)
         gradient_text.append("\n")
-        
     console.print(gradient_text)
-    console.print("\t\t\t            [bold green]♕ CPMASTRON ♕[/bold green]")
-    console.print("\t\t         Car Parking Multiplayer Hacking Tool")
-    console.print(f"\t\t            [bold][blue]@{__CHANNEL_USERNAME__}[/blue] or [blue]@{__GROUP_USERNAME__}[/blue]")
-    console.print("\t             Please Logout from CPM before using this tool")
+    console.print("\t\t\t        [bold green]♕ CPMEwan ♕[/bold green]")
+    console.print("\t\t    Car Parking Multiplayer Hacking Tool")
+    console.print(f"\t\t      [bold][blue]@{__CHANNEL_USERNAME__}[/blue] or [blue]@{__GROUP_USERNAME__}[/blue]")
+    console.print("\t        Please Logout from CPM before using this tool")
     
 
-    console.print("        [bold][red]       Sharing the Access key is not allowed and will be blocked[/bold][red]")
+    console.print("        [bold][red]  Sharing the Access key is not allowed and will be blocked[/bold][red]")
 
 
-    console.print("   [bold][yellow  ]   Get in touch with me to buy an unlimited balance[bold][yellow][green][bold] Telegram:-@astron_om[/green][/bold]", end="\n\n")
+    console.print("   [bold][yellow]   Get in touch with me to buy an unlimited balance[bold][yellow][green][bold] Telegram:-@EwanAli[/green][/bold]", end="\n\n")
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
@@ -128,7 +127,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold]➤ Account Password[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold]➤ Access Key[/bold]", "Access Key", password=False)
         console.print("[bold cyan]↻ Trying to Login[/bold cyan]: ", end=None)
-        cpm = CPMKing(acc_access_key)
+        cpm = CPMEwan(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
@@ -334,7 +333,7 @@ if __name__ == "__main__":
                 if status == 0:
                     console.print("[bold green]SUCCESSFUL.[/bold green]")
                     console.print("==================================")
-                    console.print(f"[bold red]! INFO[/bold red]: In order to tweak this account with CPMKing")
+                    console.print(f"[bold red]! INFO[/bold red]: In order to tweak this account with CPMEwan")
                     console.print("you most sign-in to the game using this account.")
                     sleep(2)
                     continue
