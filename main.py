@@ -9,10 +9,10 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-from cpmewan import CPMEwan
+from cpmking import CPMKing
 
-__CHANNEL_USERNAME__ = "Ewan1999Ewan"
-__GROUP_USERNAME__ = "Ewan19_99Ewan"
+__CHANNEL_USERNAME__ = "offsetscript"
+__GROUP_USERNAME__ = "offsetscript"
 
 
 def signal_handler(sig, frame):
@@ -22,16 +22,16 @@ def signal_handler(sig, frame):
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
     ascii_art = """
-       ▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ 
-      ▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ 
-      ▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒
-      ▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒
-      ▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░
-      ░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
-        ░  ▒   ░▒ ░     ░  ░      ░ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░
-      ░        ░░       ░      ░      ░     ░   ░    ░   ▒      ░   ░ ░ 
-      ░ ░                      ░      ░  ░    ░          ░  ░         ░ 
-      ░"""
+ ▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █        ██ ▄█▀ █    ██  ██▀███  ▓█████▄  ██▓  ██████  ██░ ██ 
+▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █        ██▄█▒  ██  ▓██▒▓██ ▒ ██▒▒██▀ ██▌▓██▒▒██    ▒ ▓██░ ██▒
+▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒      ▓███▄░ ▓██  ▒██░▓██ ░▄█ ▒░██   █▌▒██▒░ ▓██▄   ▒██▀▀██░
+▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒      ▓██ █▄ ▓▓█  ░██░▒██▀▀█▄  ░▓█▄   ▌░██░  ▒   ██▒░▓█ ░██ 
+▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░      ▒██▒ █▄▒▒█████▓ ░██▓ ▒██▒░▒████▓ ░██░▒██████▒▒░▓█▒░██▓
+░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒       ▒ ▒▒ ▓▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒
+  ░  ▒   ░▒ ░     ░  ░      ░ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░      ░ ░▒ ▒░░░▒░ ░ ░   ░▒ ░ ▒░ ░ ▒  ▒  ▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░
+░        ░░       ░      ░      ░     ░   ░    ░   ▒      ░   ░ ░       ░ ░░ ░  ░░░ ░ ░   ░░   ░  ░ ░  ░  ▒ ░░  ░  ░   ░  ░░ ░
+░ ░                      ░      ░  ░    ░          ░  ░         ░       ░  ░      ░        ░        ░     ░        ░   ░  ░  ░
+░                                                                                                 ░                           """
     start_color = Color.parse("#28e99a")
     end_color = Color.parse("#cbd31a")
     start_rgb = np.array(start_color.triplet)
@@ -50,17 +50,18 @@ def banner(console):
             else:
                 gradient_text.append(char)
         gradient_text.append("\n")
+        
     console.print(gradient_text)
-    console.print("\t\t\t        [bold green]♕ CPMEwan ♕[/bold green]")
-    console.print("\t\t    Car Parking Multiplayer Hacking Tool")
-    console.print(f"\t\t      [bold][blue]@{__CHANNEL_USERNAME__}[/blue] or [blue]@{__GROUP_USERNAME__}[/blue]")
-    console.print("\t        Please Logout from CPM before using this tool")
+    console.print("\t\t\t            [bold green]♕ CPMASTRON ♕[/bold green]")
+    console.print("\t\t         Car Parking Multiplayer Hacking Tool")
+    console.print(f"\t\t            [bold][blue]@{__CHANNEL_USERNAME__}[/blue] or [blue]@{__GROUP_USERNAME__}[/blue]")
+    console.print("\t             Please Logout from CPM before using this tool")
     
 
-    console.print("        [bold][red]  Sharing the Access key is not allowed and will be blocked[/bold][red]")
+    console.print("        [bold][red]       Sharing the Access key is not allowed and will be blocked[/bold][red]")
 
 
-    console.print("   [bold][yellow]   Get in touch with me to buy an unlimited balance[bold][yellow][green][bold] Telegram:-@EwanAli[/green][/bold]", end="\n\n")
+    console.print("   [bold][yellow  ]   Get in touch with me to buy an unlimited balance[bold][yellow][green][bold] Telegram:-@astron_om[/green][/bold]", end="\n\n")
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
@@ -127,7 +128,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold]➤ Account Password[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold]➤ Access Key[/bold]", "Access Key", password=False)
         console.print("[bold cyan]↻ Trying to Login[/bold cyan]: ", end=None)
-        cpm = CPMEwan(acc_access_key)
+        cpm = CPMKing(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
@@ -333,7 +334,7 @@ if __name__ == "__main__":
                 if status == 0:
                     console.print("[bold green]SUCCESSFUL.[/bold green]")
                     console.print("==================================")
-                    console.print(f"[bold red]! INFO[/bold red]: In order to tweak this account with CPMEwan")
+                    console.print(f"[bold red]! INFO[/bold red]: In order to tweak this account with CPMKing")
                     console.print("you most sign-in to the game using this account.")
                     sleep(2)
                     continue
