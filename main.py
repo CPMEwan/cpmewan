@@ -11,8 +11,8 @@ import numpy as np
 
 from cpmewan import CPMEwan
 
-__CHANNEL_USERNAME__ = "offsetscript"
-__GROUP_USERNAME__ = "offsetscript"
+__CHANNEL_USERNAME__ = "Ewan1999Ewan"
+__GROUP_USERNAME__ = "Ewan19_99Ewan"
 
 
 def signal_handler(sig, frame):
@@ -22,16 +22,16 @@ def signal_handler(sig, frame):
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
     ascii_art = """
- ▄████▄   ██▓███   ███▄ ▄███▓ ▄▄▄        ██████ ▄▄▄█████▓ ██▀███   ▒█████   ███▄    █ 
-▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▒████▄    ▒██    ▒ ▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒ ██ ▀█   █ 
-▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒██  ▀█▄  ░ ▓██▄   ▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░  ██▒▓██  ▀█ ██▒
-▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ░██▄▄▄▄██   ▒   ██▒░ ▓██▓ ░ ▒██▀▀█▄  ▒██   ██░▓██▒  ▐▌██▒
-▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒ ▓█   ▓██▒▒██████▒▒  ▒██▒ ░ ░██▓ ▒██▒░ ████▓▒░▒██░   ▓██░
-░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░  ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
-  ░  ▒   ░▒ ░     ░  ░      ░  ▒   ▒▒ ░░ ░▒  ░ ░    ░      ░▒ ░ ▒░  ░ ▒ ▒░ ░ ░░   ░ ▒░
-░        ░░       ░      ░     ░   ▒   ░  ░  ░    ░        ░░   ░ ░ ░ ░ ▒     ░   ░ ░ 
-░ ░                      ░         ░  ░      ░              ░         ░ ░           ░ 
-░"""
+▓█████  █     █░ ▄▄▄       ███▄    █     ██ ▄█▀ █    ██  ██▀███  ▓█████▄  ██▓  ██████  ██░ ██    
+▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █     ██▄█▒  ██  ▓██▒▓██ ▒ ██▒▒██▀ ██▌▓██▒▒██    ▒ ▓██░ ██▒   
+▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒   ▓███▄░ ▓██  ▒██░▓██ ░▄█ ▒░██   █▌▒██▒░ ▓██▄   ▒██▀▀██░   
+▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒   ▓██ █▄ ▓▓█  ░██░▒██▀▀█▄  ░▓█▄   ▌░██░  ▒   ██▒░▓█ ░██    
+░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░   ▒██▒ █▄▒▒█████▓ ░██▓ ▒██▒░▒████▓ ░██░▒██████▒▒░▓█▒░██▓   
+░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒    ▒ ▒▒ ▓▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒   
+ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░   ░ ░▒ ▒░░░▒░ ░ ░   ░▒ ░ ▒░ ░ ▒  ▒  ▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░   
+   ░     ░   ░    ░   ▒      ░   ░ ░    ░ ░░ ░  ░░░ ░ ░   ░░   ░  ░ ░  ░  ▒ ░░  ░  ░   ░  ░░ ░   
+   ░  ░    ░          ░  ░         ░    ░  ░      ░        ░        ░     ░        ░   ░  ░  ░   
+                                                                  ░                              """
     start_color = Color.parse("#28e99a")
     end_color = Color.parse("#cbd31a")
     start_rgb = np.array(start_color.triplet)
@@ -50,25 +50,22 @@ def banner(console):
             else:
                 gradient_text.append(char)
         gradient_text.append("\n")
-        
     console.print(gradient_text)
-    console.print("\t\t\t            [bold green]♕ CPMASTRON ♕[/bold green]")
-    console.print("\t\t         Car Parking Multiplayer Hacking Tool")
-    console.print(f"\t\t            [bold][blue]@{__CHANNEL_USERNAME__}[/blue] or [blue]@{__GROUP_USERNAME__}[/blue]")
-    console.print("\t             Please Logout from CPM before using this tool")
+    console.print("\t\t\t              [bold green]♕ 𝐂𝐏𝐌 𝐄𝐖𝐀𝐍 𝐊𝐔𝐑𝐃𝐈𝐒𝐇 ♕[/bold green]")
+    console.print(f"\t\t                [bold][blue]@{__CHANNEL_USERNAME__}[/blue] 𝐎𝐑 [blue]@{__GROUP_USERNAME__}[/blue]")
+    console.print("\t\t              𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
+    console.print("\t                 𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
+    console.print("                 [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
 
-    console.print("        [bold][red]       Sharing the Access key is not allowed and will be blocked[/bold][red]")
-
-
-    console.print("   [bold][yellow  ]   Get in touch with me to buy an unlimited balance[bold][yellow][green][bold] Telegram:-@astron_om[/green][/bold]", end="\n\n")
+    console.print("           [bold][yellow]   𝐆𝐄𝐓 𝐈𝐍 𝐓𝐎𝐔𝐂𝐇 𝐖𝐈𝐓𝐇 𝐌𝐄 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐍 𝐔𝐍𝐋𝐈𝐌𝐈𝐓𝐄𝐃 𝐁𝐀𝐋𝐀𝐍𝐂𝐄[bold][yellow][green][bold] 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌:-@𝐄𝐖𝐀𝐍𝐀𝐋𝐈[/green][/bold]", end="\n\n")
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
     if response.get('ok'):
         data = response.get('data')
         if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
-            console.print("[bold][red]========[/red][ PLAYER DETAILS ][red]========[/red][/bold]")
+            console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
             console.print(
                 f"[bold green] Name   [/bold green]: {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.")
             console.print(f"[bold green] LocalID[/bold green]: {data.get('localID')}.")
@@ -156,29 +153,29 @@ if __name__ == "__main__":
             load_player_data(cpm)
             load_key_data(cpm)
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
-            console.print("[bold cyan](01): Increase Money           1.000K[/bold cyan]")
-            console.print("[bold cyan](02): Increase Coins           3.500K[/bold cyan]")
-            console.print("[bold cyan](03): King Rank                4.000K[/bold cyan]")
-            console.print("[bold cyan](04): Change ID                3.500K[/bold cyan]")
-            console.print("[bold cyan](05): Change Name              100[/bold cyan]")
-            console.print("[bold cyan](06): Change Name (Rainbow)    100[/bold cyan]")
-            console.print("[bold cyan](07): Number Plates            2.000K[/bold cyan]")
-            console.print("[bold cyan](08): Account Delete           FREE[/bold cyan]")
-            console.print("[bold cyan](09): Account Register         FREE[/bold cyan]")
-            console.print("[bold cyan](10): Delete Friends           500[/bold cyan]")
-            console.print("[bold cyan](11): Unlock Paid Cars         4000K[/bold cyan]")
-            console.print("[bold cyan](12): Unlock all Cars          3.000K[/bold cyan]")
-            console.print("[bold cyan](13): Unlock all Cars Siren    2.000K[/bold cyan]")
-            console.print("[bold cyan](14): Unlock w16 Engine        3.000K[/bold cyan]")
-            console.print("[bold cyan](15): Unlock All Horns         3.000K[/bold cyan]")
-            console.print("[bold cyan](16): Unlock Disable Damage    2.000K[/bold cyan]")
-            console.print("[bold cyan](17): Unlock Unlimited Fuel    2.000K[/bold cyan]")
-            console.print("[bold cyan](18): Unlock House 3           3.500K[/bold cyan]")
-            console.print("[bold cyan](19): Unlock Smoke             2.000K[/bold cyan]")
-            console.print("[bold cyan](20): Change Race Wins         1.000K[/bold cyan]")
-            console.print("[bold cyan](21): Change Race Loses        1.000K[/bold cyan]")
-            console.print("[bold cyan](22): Clone Account            5.000K[/bold cyan]")
-            console.print("[bold cyan](0) : Exit[/bold cyan]", end="\n\n")
+            console.print("[bold cyan]{01}: Increase Money           1.000K[/bold cyan]")
+            console.print("[bold cyan]{02}: Increase Coins           3.500K[/bold cyan]")
+            console.print("[bold cyan]{03}: King Rank                4.000K[/bold cyan]")
+            console.print("[bold cyan]{04}: Change ID                3.500K[/bold cyan]")
+            console.print("[bold cyan]{05}: Change Name              100[/bold cyan]")
+            console.print("[bold cyan]{06}: Change Name (Rainbow)    100[/bold cyan]")
+            console.print("[bold cyan]{07}: Number Plates            2.000K[/bold cyan]")
+            console.print("[bold cyan]{08}: Account Delete           FREE[/bold cyan]")
+            console.print("[bold cyan]{09}: Account Register         FREE[/bold cyan]")
+            console.print("[bold cyan]{10}: Delete Friends           500[/bold cyan]")
+            console.print("[bold cyan]{11}: Unlock Paid Cars         4000K[/bold cyan]")
+            console.print("[bold cyan]{12}: Unlock all Cars          3.000K[/bold cyan]")
+            console.print("[bold cyan]{13}: Unlock all Cars Siren    2.000K[/bold cyan]")
+            console.print("[bold cyan]{14}: Unlock w16 Engine        3.000K[/bold cyan]")
+            console.print("[bold cyan]{15}: Unlock All Horns         3.000K[/bold cyan]")
+            console.print("[bold cyan]{16}: Unlock Disable Damage    2.000K[/bold cyan]")
+            console.print("[bold cyan]{17}: Unlock Unlimited Fuel    2.000K[/bold cyan]")
+            console.print("[bold cyan]{18}: Unlock House 3           3.500K[/bold cyan]")
+            console.print("[bold cyan]{19}: Unlock Smoke             2.000K[/bold cyan]")
+            console.print("[bold cyan]{20}: Change Race Wins         1.000K[/bold cyan]")
+            console.print("[bold cyan]{21}: Change Race Loses        1.000K[/bold cyan]")
+            console.print("[bold cyan]{22}: Clone Account            5.000K[/bold cyan]")
+            console.print("[bold cyan]{0} : Exit[/bold cyan]", end="\n\n")
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
             if service == 0: # Exit
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
