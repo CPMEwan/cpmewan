@@ -159,7 +159,7 @@ if __name__ == "__main__":
             console.print("[bold cyan]{04}: Change ID                3.500K[/bold cyan]")
             console.print("[bold cyan]{05}: Change Name              100[/bold cyan]")
             console.print("[bold cyan]{06}: Change Name (Rainbow)    100[/bold cyan]")
-//            console.print("[bold cyan]{07}: Number Plates            2.000K[/bold cyan]")
+            console.print("[bold cyan]{07}: Number Plates            2.000K[/bold cyan]")
             console.print("[bold cyan]{08}: Account Delete           FREE[/bold cyan]")
             console.print("[bold cyan]{09}: Account Register         FREE[/bold cyan]")
             console.print("[bold cyan]{10}: Delete Friends           500[/bold cyan]")
@@ -300,19 +300,19 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
-//            elif service == 7: # Number Plates
-//                console.print("[bold cyan][%] Giving you a Number Plates[/bold cyan]: ", end=None)
-//                if cpm.set_player_plates():
-//                    console.print("[bold green]SUCCESSFUL.[/bold green]")
-//                    console.print("==================================")
-//                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-//                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-//                    else: continue
-//                else:
-//                    console.print("[bold red]FAILED.[/bold red]")
-//                    console.print("[bold yellow][!] Please try again.[/bold yellow]")
-//                    sleep(2)
-//                    continue
+            elif service == 7: # Number Plates
+                console.print("[bold cyan][%] Giving you a Number Plates[/bold cyan]: ", end=None)
+                if cpm.set_player_plates():
+                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    console.print("==================================")
+                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                    else: continue
+                else:
+                    console.print("[bold red]FAILED.[/bold red]")
+                    console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                    sleep(2)
+                    continue
             elif service == 8: # Account Delete
                 console.print("[bold cyan][!] After deleting your account there is no going back !!.[/bold cyan]")
                 answ = Prompt.ask("[bold cyan][?] Do You want to Delete this Account ?![/bold cyan]", choices=["y", "n"], default="n")
@@ -537,3 +537,4 @@ if __name__ == "__main__":
             else: continue
             break
         break
+
