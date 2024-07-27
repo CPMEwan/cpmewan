@@ -71,13 +71,13 @@ def load_player_data(cpm):
             console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
             
             console.print(
-                f"[bold green] Name   [/bold green]: {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.")
+                f"[bold green] Name   [/bold green]:[bold cyan] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan][bold red] 》[/bold red]")
                 
-            console.print(f"[bold green] LocalID[/bold green]: {data.get('localID')}.")
+            console.print(f"[bold green] LocalID[/bold green]:[bold red]《[/bold red][bold cyan] {data.get('localID')}[/bold cyan][bold red] 》[/bold red]")
             
-            console.print(f"[bold green] Money  [/bold green]: {data.get('money')}.")
+            console.print(f"[bold green] Money  [/bold green]:[bold red]《[/bold red][bold cyan] {data.get('money')}[/bold cyan][bold red] 》[/bold red]")
             
-            console.print(f"[bold green] Coins  [/bold green]: {data.get('coin')}.")
+            console.print(f"[bold green] Coins  [/bold green]:[bold red]《[/bold red][bold cyan] {data.get('coin')}[/bold cyan][bold red] 》[/bold red]")
             
         else:
             console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
@@ -93,11 +93,11 @@ def load_key_data(cpm):
     
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
-    console.print(f"[bold green] Your Access Key [/bold green]:[bold red][[/bold red][bold cyan] {data.get('access_key')}[/bold cyan][bold red]][/bold red]")
+    console.print(f"[bold green] Your Access Key [/bold green]:[bold red]《[/bold red][bold cyan] {data.get('access_key')}[/bold cyan][bold red] 《[/bold red]")
     
-    console.print(f"[bold green] Your Telegram ID[/bold green]:[bold red][[/bold red][bold cyan] {data.get('telegram_id')}[/bold cyan][bold red]][/bold red]")
+    console.print(f"[bold green] Your Telegram ID[/bold green]:[bold red]《[/bold red][bold cyan] {data.get('telegram_id')}[/bold cyan][bold red] 》[/bold red]")
     
-    console.print(f"[bold green] Your Balance $  [/bold green]:[bold red][[/bold red][bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan][bold red]][/bold red]")
+    console.print(f"[bold green] Your Balance $  [/bold green]:[bold red]《[/bold red][bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan][bold red] 》[/bold red]")
         
     console.print("[bold][red]======================================[/red][/bold]")
 
