@@ -47,8 +47,7 @@ def banner(console):
                 color_rgb = start_rgb + position * (end_rgb - start_rgb)
                 color_hex = '#{:02x}{:02x}{:02x}'.format(int(color_rgb[0]), int(color_rgb[1]), int(color_rgb[2]))
                 gradient_text.append(char, style=color_hex)
-            else:
-            
+else:        
 gradient_text.append(char)
 
 gradient_text.append("\n")
