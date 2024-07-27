@@ -196,6 +196,9 @@ if __name__ == "__main__":
             
             if service == 0: # Exit
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                
+                
+                
             elif service == 1: # Increase Money
                 console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
@@ -217,6 +220,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 2: # Increase Coins
                 console.print("[bold cyan][!] Insert how much coins do you want.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
@@ -238,6 +244,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 3: # King Rank
                 console.print("[bold red][!] Note:[/bold red]: if the king rank doesn't appear in game, close it and open few times.", end=None)
                 console.print("[bold red][!] Note:[/bold red]: please don't do King Rank on same account twice.", end=None)
@@ -254,6 +263,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 4: # Change ID
                 console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
                 new_id = Prompt.ask("[bold][?] ID[/bold]")
@@ -275,6 +287,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid ID.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 5: # Change Name
                 console.print("[bold cyan][!] Enter your new Name.[/bold cyan]")
                 new_name = Prompt.ask("[bold][?] Name[/bold]")
@@ -296,6 +311,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 6: # Change Name Rainbow
                 console.print("[bold cyan][!] Enter your new Rainbow Name.[/bold cyan]")
                 new_name = Prompt.ask("[bold][?] Name[/bold]")
@@ -317,6 +335,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 7: # Number Plates
                 console.print("[bold cyan][%] Giving you a Number Plates[/bold cyan]: ", end=None)
                 if cpm.set_player_plates():
@@ -330,6 +351,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 8: # Account Delete
                 console.print("[bold cyan][!] After deleting your account there is no going back !!.[/bold cyan]")
                 answ = Prompt.ask("[bold cyan][?] Do You want to Delete this Account ?![/bold cyan]", choices=["y", "n"], default="n")
@@ -339,6 +363,9 @@ if __name__ == "__main__":
                     console.print("==================================")
                     console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
                 else: continue
+                
+                
+                
             elif service == 9: # Account Register
                 console.print("[bold cyan][!] Registring new Account.[/bold cyan]")
                 acc2_email = prompt_valid_value("[bold][?] Account Email[/bold]", "Email", password=False)
@@ -362,6 +389,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 10: # Delete Friends
                 console.print("[bold cyan][%] Deleting your Friends[/bold cyan]: ", end=None)
                 if cpm.delete_player_friends():
@@ -375,6 +405,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 11: # Unlock All Paid Cars
                 console.print("[bold yellow]! Note[/bold yellow]: this function takes a while to complete, please don't cancel.", end=None)
                 console.print("[bold cyan][%] Unlocking All Paid Cars[/bold cyan]: ", end=None)
@@ -389,6 +422,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 12: # Unlock All Cars
                 console.print("[bold cyan][%] Unlocking All Cars[/bold cyan]: ", end=None)
                 if cpm.unlock_all_cars():
@@ -402,6 +438,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 13: # Unlock All Cars Siren
                 console.print("[bold cyan][%] Unlocking All Cars Siren[/bold cyan]: ", end=None)
                 if cpm.unlock_all_cars_siren():
@@ -415,6 +454,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 14: # Unlock w16 Engine
                 console.print("[bold cyan][%] Unlocking w16 Engine[/bold cyan]: ", end=None)
                 if cpm.unlock_w16():
@@ -428,6 +470,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 15: # Unlock All Horns
                 console.print("[bold cyan][%] Unlocking All Horns[/bold cyan]: ", end=None)
                 if cpm.unlock_horns():
@@ -441,6 +486,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 16: # Disable Engine Damage
                 console.print("[bold cyan][%] Unlocking Disable Damage[/bold cyan]: ", end=None)
                 if cpm.disable_engine_damage():
@@ -454,6 +502,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 17: # Unlimited Fuel
                 console.print("[bold cyan][%] Unlocking Unlimited Fuel[/bold cyan]: ", end=None)
                 if cpm.unlimited_fuel():
@@ -467,6 +518,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 18: # Unlock House 3
                 console.print("[bold cyan][%] Unlocking House 3[/bold cyan]: ", end=None)
                 if cpm.unlock_houses():
@@ -480,6 +534,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 19: # Unlock Smoke
                 console.print("[bold cyan][%] Unlocking Smoke[/bold cyan]: ", end=None)
                 if cpm.unlock_smoke():
@@ -493,6 +550,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please try again.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 20: # Change Races Wins
                 console.print("[bold cyan][!] Insert how much races you win.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
@@ -514,6 +574,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 21: # Change Races Loses
                 console.print("[bold cyan][!] Insert how much races you lose.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
@@ -535,6 +598,9 @@ if __name__ == "__main__":
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
                     continue
+                    
+                    
+                    
             elif service == 22: # Clone Account
                 console.print("[bold cyan]Please Enter Account Detalis[/bold cyan]:")
                 to_email = prompt_valid_value("[bold][?] Account Email[/bold]", "Email", password=False)
