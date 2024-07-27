@@ -51,7 +51,6 @@ def banner(console):
                 gradient_text.append(char)
         gradient_text.append("\n")
     console.print(gradient_text)
-        console.print("[bold][red]======================================================================================[/red][/bold]", end="\n\n")
     console.print("\t\t\t              [bold green]♕ 𝐂𝐏𝐌 𝐄𝐖𝐀𝐍 𝐊𝐔𝐑𝐃𝐈𝐒𝐇 ♕[/bold green]")
     console.print(f"\t\t                [bold][blue]@{__CHANNEL_USERNAME__}[/blue] 𝐎𝐑 [blue]@{__GROUP_USERNAME__}[/blue]")
     console.print("\t\t              𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
