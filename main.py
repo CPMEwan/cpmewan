@@ -47,130 +47,112 @@ def banner(console):
                 color_rgb = start_rgb + position * (end_rgb - start_rgb)
                 color_hex = '#{:02x}{:02x}{:02x}'.format(int(color_rgb[0]), int(color_rgb[1]), int(color_rgb[2]))
                 gradient_text.append(char, style=color_hex)
-else:        
-gradient_text.append(char)
-
-gradient_text.append("\n")
-
-console.print(gradient_text)
-
-console.print("\t\t\t[bold green]♕ 𝐂𝐏𝐌 𝐄𝐖𝐀𝐍 𝐊𝐔𝐑𝐃𝐈𝐒𝐇 ♕[/bold green]")
-
-console.print(f"\t\t[bold][blue]@{__CHANNEL_USERNAME__}[/blue] 𝐎𝐑 [blue]@{__GROUP_USERNAME__}[/blue]")
-
-console.print("\t\t 𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
-
-console.print("\t 𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
+            else:
+                gradient_text.append(char)
+        gradient_text.append("\n")
+    console.print(gradient_text)
+    console.print("\t\t\t[bold green]♕ 𝐂𝐏𝐌 𝐄𝐖𝐀𝐍 𝐊𝐔𝐑𝐃𝐈𝐒𝐇 ♕[/bold green]")
+    console.print(f"\t\t[bold][blue]@{__CHANNEL_USERNAME__}[/blue] 𝐎𝐑 [blue]@{__GROUP_USERNAME__}[/blue]")
+    console.print("\t\t𝐂𝐀𝐑 𝐏𝐀𝐑𝐊𝐈𝐍𝐆 𝐌𝐔𝐋𝐓𝐈𝐏𝐋𝐀𝐘𝐄𝐑 𝐇𝐀𝐂𝐊𝐈𝐍𝐆 𝐓𝐎𝐎𝐋")
+    console.print("\t𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
-console.print("[bold][red] 𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
+    console.print("[bold][red]𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
 
-console.print("[bold][yellow] 𝐆𝐄𝐓 𝐈𝐍 𝐓𝐎𝐔𝐂𝐇 𝐖𝐈𝐓𝐇 𝐌𝐄 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐍 𝐔𝐍𝐋𝐈𝐌𝐈𝐓𝐄𝐃 𝐁𝐀𝐋𝐀𝐍𝐂𝐄[bold][yellow][green][bold] 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌:-@𝐄𝐖𝐀𝐍𝐀𝐋𝐈[/green][/bold]", end="\n\n")
+    console.print("[bold][yellow]𝐆𝐄𝐓 𝐈𝐍 𝐓𝐎𝐔𝐂𝐇 𝐖𝐈𝐓𝐇 𝐌𝐄 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐍 𝐔𝐍𝐋𝐈𝐌𝐈𝐓𝐄𝐃 𝐁𝐀𝐋𝐀𝐍𝐂𝐄[bold][yellow][green][bold] 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌:-@𝐄𝐖𝐀𝐍𝐀𝐋𝐈[/green][/bold]", end="\n\n")
     
 def load_player_data(cpm):
-response = cpm.get_player_data()
-if response.get('ok'):
-data = response.get('data')
-if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
-console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
-
-console.print(f"[bold green] Name[/bold green]: {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.")
-
-console.print(f"[bold green] LocalID[/bold green]: {data.get('localID')}.")
-            
-console.print(f"[bold green] Money  [/bold green]: {data.get('money')}.")
-            
-console.print(f"[bold green] Coins  [/bold green]: {data.get('coin')}.")
-            
-else:
-
-console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
-
-exit(1)
-
-else:
-
-console.print("[bold red]! ERROR[/bold red]: seems like your login is not properly set !.")
-
-exit(1)
+    response = cpm.get_player_data()
+    if response.get('ok'):
+        data = response.get('data')
+        if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
+            console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
+            console.print(
+                f"[bold green] Name   [/bold green]: {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.")
+            console.print(f"[bold green] LocalID[/bold green]: {data.get('localID')}.")
+            console.print(f"[bold green] Money  [/bold green]: {data.get('money')}.")
+            console.print(f"[bold green] Coins  [/bold green]: {data.get('coin')}.")
+        else:
+            console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
+            exit(1)
+    else:
+        console.print("[bold red]! ERROR[/bold red]: seems like your login is not properly set !.")
+        exit(1)
 
 
 def load_key_data(cpm):
-
-data = cpm.get_key_data()
-
-console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
-
-console.print(f"[bold green] Access Key [/bold green]: {data.get('access_key')}.")
-
-console.print(f"[bold green] Telegram ID[/bold green]: {data.get('telegram_id')}.")
-
-console.print(f"[bold green] Credits[/bold green]: {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}.")
-
-console.print("[bold][red]======================================[/red][/bold]")
+    data = cpm.get_key_data()
+    console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
+    console.print(f"[bold green] Access Key [/bold green]: {data.get('access_key')}.")
+    console.print(f"[bold green] Telegram ID[/bold green]: {data.get('telegram_id')}.")
+    console.print(
+        f"[bold green] Credits    [/bold green]: {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}.")
+    console.print("[bold][red]======================================[/red][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
-while True:
-value = Prompt.ask(content, password=password)
-if not value or value.isspace():
-print(f"{tag} cannot be empty or just spaces. Please try again.")
-else:
-return value
+    while True:
+        value = Prompt.ask(content, password=password)
+        if not value or value.isspace():
+            print(f"{tag} cannot be empty or just spaces. Please try again.")
+        else:
+            return value
+
+
 def interpolate_color(start_color, end_color, fraction):
-start_rgb = tuple(int(start_color[i:i + 2], 16) for i in (1, 3, 5))
-end_rgb = tuple(int(end_color[i:i + 2], 16) for i in (1, 3, 5))
-interpolated_rgb = tuple(int(start + fraction * (end - start)) for start, end in zip(start_rgb, end_rgb))
-return "{:02x}{:02x}{:02x}".format(*interpolated_rgb)
+    start_rgb = tuple(int(start_color[i:i + 2], 16) for i in (1, 3, 5))
+    end_rgb = tuple(int(end_color[i:i + 2], 16) for i in (1, 3, 5))
+    interpolated_rgb = tuple(int(start + fraction * (end - start)) for start, end in zip(start_rgb, end_rgb))
+    return "{:02x}{:02x}{:02x}".format(*interpolated_rgb)
 
 
 def rainbow_gradient_string(customer_name):
-modified_string = ""
-num_chars = len(customer_name)
-start_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
-end_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
-for i, char in enumerate(customer_name):
-fraction = i / max(num_chars - 1, 1)
-interpolated_color = interpolate_color(start_color, end_color, fraction)
-modified_string += f'[{interpolated_color}]{char}'
-return modified_string
+    modified_string = ""
+    num_chars = len(customer_name)
+    start_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
+    end_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
+    for i, char in enumerate(customer_name):
+        fraction = i / max(num_chars - 1, 1)
+        interpolated_color = interpolate_color(start_color, end_color, fraction)
+        modified_string += f'[{interpolated_color}]{char}'
+    return modified_string
+
 
 if __name__ == "__main__":
-console = Console()
-signal.signal(signal.SIGINT, signal_handler)
-while True:
-banner(console)
-acc_email = prompt_valid_value("[bold]➤ Account Email[/bold]", "Email", password=False)
-acc_password = prompt_valid_value("[bold]➤ Account Password[/bold]", "Password", password=False)
-acc_access_key = prompt_valid_value("[bold]➤ Access Key[/bold]", "Access Key", password=False)
-console.print("[bold cyan]↻ Trying to Login[/bold cyan]: ", end=None)
-cpm = CPMEwan(acc_access_key)
-login_response = cpm.login(acc_email, acc_password)
-if login_response != 0:
-if login_response == 100:
-console.print("[bold red]ACCOUNT NOT FOUND[/bold red].")
-sleep(2)
-continue
-elif login_response == 101:
-console.print("[bold red]WRONG PASSWORD[/bold red].")
-sleep(2)
-continue
-elif login_response == 103:
-console.print("[bold red]INVALID ACCESS KEY[/bold red].")
-sleep(2)
-continue
-else:
-console.print("[bold red]TRY AGAIN[/bold red].")
-console.print("[bold yellow]! Note:[/bold yellow]: make sure you filled out the fields !.")
-sleep(2)
-continue
-else:
-console.print("[bold green]SUCCESSFUL[/bold green].")
-sleep(2)
-while True:
-banner(console)
-load_player_data(cpm)
-load_key_data(cpm)
-
-choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
+    console = Console()
+    signal.signal(signal.SIGINT, signal_handler)
+    while True:
+        banner(console)
+        acc_email = prompt_valid_value("[bold]➤ Account Email[/bold]", "Email", password=False)
+        acc_password = prompt_valid_value("[bold]➤ Account Password[/bold]", "Password", password=False)
+        acc_access_key = prompt_valid_value("[bold]➤ Access Key[/bold]", "Access Key", password=False)
+        console.print("[bold cyan]↻ Trying to Login[/bold cyan]: ", end=None)
+        cpm = CPMEwan(acc_access_key)
+        login_response = cpm.login(acc_email, acc_password)
+        if login_response != 0:
+            if login_response == 100:
+                console.print("[bold red]ACCOUNT NOT FOUND[/bold red].")
+                sleep(2)
+                continue
+            elif login_response == 101:
+                console.print("[bold red]WRONG PASSWORD[/bold red].")
+                sleep(2)
+                continue
+            elif login_response == 103:
+                console.print("[bold red]INVALID ACCESS KEY[/bold red].")
+                sleep(2)
+                continue
+            else:
+                console.print("[bold red]TRY AGAIN[/bold red].")
+                console.print("[bold yellow]! Note:[/bold yellow]: make sure you filled out the fields !.")
+                sleep(2)
+                continue
+        else:
+            console.print("[bold green]SUCCESSFUL[/bold green].")
+            sleep(2)
+        while True:
+            banner(console)
+            load_player_data(cpm)
+            load_key_data(cpm)
+            choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
             console.print("[bold cyan]{01}: Increase Money           1.000K[/bold cyan]")
             console.print("[bold cyan]{02}: Increase Coins           3.500K[/bold cyan]")
             console.print("[bold cyan]{03}: King Rank                4.000K[/bold cyan]")
@@ -195,191 +177,104 @@ choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "
             console.print("[bold cyan]{22}: Clone Account            5.000K[/bold cyan]")
             console.print("[bold cyan]{0} : Exit[/bold cyan]", end="\n\n")
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
-if service == 0: # Exit
-            
---ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ            
-console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-
-elif service == 1: # Increase Money
-
-console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
-
-amount = IntPrompt.ask("[bold][?] Amount[/bold]")
-
-console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-
-if amount > 0 and amount <= 50000000:
-
-if cpm.set_player_money(amount):
-
-console.print("[bold green]SUCCESSFUL.[/bold green]")
-
-console.print("==================================")
-
-answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-
-if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-
-else: continue
-
-else:
---ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please try again.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-else:
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-elif service == 2: # Increase Coins
-
-console.print("[bold cyan][!] Insert how much coins do you want.[/bold cyan]")
-
-amount = IntPrompt.ask("[bold][?] Amount[/bold]")
-
-console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-
-if amount > 0 and amount <= 90000:
-
-if cpm.set_player_coins(amount):
-
-console.print("[bold green]SUCCESSFUL.[/bold green]")
-
-console.print("==================================")
-
-answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-
-if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-
-else: continue
-
-else:
---ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please try again.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-else:
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-elif service == 3: # King Rank
-
-console.print("[bold red][!] Note:[/bold red]: if the king rank doesn't appear in game, close it and open few times.", end=None)
-
-console.print("[bold red][!] Note:[/bold red]: please don't do King Rank on same account twice.", end=None)
-
-sleep(2)
-
-console.print("[bold cyan][%] Giving you a King Rank[/bold cyan]: ", end=None)
-
-if cpm.set_player_rank():
-
-console.print("[bold green]SUCCESSFUL.[/bold green]")
-
-console.print("==================================")
-
-answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-
-if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-
-else: continue
-
-else:
---ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please try again.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-elif service == 4: # Change ID
-
-console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
-
-new_id = Prompt.ask("[bold][?] ID[/bold]")
-
-console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-
-if len(new_id) >= 9 and len(new_id) <= 14 and (' ' in new_id) == False:
-
-if cpm.set_player_localid(new_id.upper()):
-
-console.print("[bold green]SUCCESSFUL.[/bold green]")
-
-console.print("==================================")
-
-answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-
-if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-
-else: continue
-
-else:
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please try again.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-else:
---ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
-
-console.print("[bold red]FAILED.[/bold red]")
-
-console.print("[bold yellow][!] Please use valid ID.[/bold yellow]")
-
-sleep(2)
-
-continue
-
-elif service == 5: # Change Name
-
-console.print("[bold cyan][!] Enter your new Name.[/bold cyan]")
-new_name = Prompt.ask("[bold][?] Name[/bold]")
-console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-if len(new_name) >= 0 and len(new_name) <= 30:
-if cpm.set_player_name(new_name):
-console.print("[bold green]SUCCESSFUL.[/bold green]")
-console.print("==================================")
-answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
-else: continue
-else:
-console.print("[bold red]FAILED.[/bold red]")
-console.print("[bold yellow][!] Please try again.[/bold yellow]")
-sleep(2)
-continue
-else:
+            if service == 0: # Exit
+                console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+            elif service == 1: # Increase Money
+                console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
+                amount = IntPrompt.ask("[bold][?] Amount[/bold]")
+                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
+                if amount > 0 and amount <= 50000000:
+                    if cpm.set_player_money(amount):
+                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        console.print("==================================")
+                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        else: continue
+                    else:
+                        console.print("[bold red]FAILED.[/bold red]")
+                        console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                        sleep(2)
+                        continue
+                else:
+                    console.print("[bold red]FAILED.[/bold red]")
+                    console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
+                    sleep(2)
+                    continue
+            elif service == 2: # Increase Coins
+                console.print("[bold cyan][!] Insert how much coins do you want.[/bold cyan]")
+                amount = IntPrompt.ask("[bold][?] Amount[/bold]")
+                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
+                if amount > 0 and amount <= 90000:
+                    if cpm.set_player_coins(amount):
+                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        console.print("==================================")
+                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        else: continue
+                    else:
+                        console.print("[bold red]FAILED.[/bold red]")
+                        console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                        sleep(2)
+                        continue
+                else:
+                    console.print("[bold red]FAILED.[/bold red]")
+                    console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
+                    sleep(2)
+                    continue
+            elif service == 3: # King Rank
+                console.print("[bold red][!] Note:[/bold red]: if the king rank doesn't appear in game, close it and open few times.", end=None)
+                console.print("[bold red][!] Note:[/bold red]: please don't do King Rank on same account twice.", end=None)
+                sleep(2)
+                console.print("[bold cyan][%] Giving you a King Rank[/bold cyan]: ", end=None)
+                if cpm.set_player_rank():
+                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    console.print("==================================")
+                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                    else: continue
+                else:
+                    console.print("[bold red]FAILED.[/bold red]")
+                    console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                    sleep(2)
+                    continue
+            elif service == 4: # Change ID
+                console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
+                new_id = Prompt.ask("[bold][?] ID[/bold]")
+                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
+                if len(new_id) >= 9 and len(new_id) <= 14 and (' ' in new_id) == False:
+                    if cpm.set_player_localid(new_id.upper()):
+                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        console.print("==================================")
+                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        else: continue
+                    else:
+                        console.print("[bold red]FAILED.[/bold red]")
+                        console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                        sleep(2)
+                        continue
+                else:
+                    console.print("[bold red]FAILED.[/bold red]")
+                    console.print("[bold yellow][!] Please use valid ID.[/bold yellow]")
+                    sleep(2)
+                    continue
+            elif service == 5: # Change Name
+                console.print("[bold cyan][!] Enter your new Name.[/bold cyan]")
+                new_name = Prompt.ask("[bold][?] Name[/bold]")
+                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
+                if len(new_name) >= 0 and len(new_name) <= 30:
+                    if cpm.set_player_name(new_name):
+                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        console.print("==================================")
+                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
+                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        else: continue
+                    else:
+                        console.print("[bold red]FAILED.[/bold red]")
+                        console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                        sleep(2)
+                        continue
+                else:
                     console.print("[bold red]FAILED.[/bold red]")
                     console.print("[bold yellow][!] Please use valid values.[/bold yellow]")
                     sleep(2)
