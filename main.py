@@ -51,13 +51,17 @@ def banner(console):
                 gradient_text.append(char)
         gradient_text.append("\n")
     console.print(gradient_text)
-    console.print("[bold][red]======================================[/red][/bold]")
     
-    console.print("                 𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
+    
+    console.print("[bold][red]============================================================================[/red][/bold]")
+    
+    console.print("                       𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
     console.print("[bold][red]                 𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
 
-    console.print("[bold][red]======================================[/red][/bold]", end="\n\n")
+    console.print("[bold][red]============================================================================[/red][/bold]", end="\n\n")
+    
+    
     
 def load_player_data(cpm):
     response = cpm.get_player_data()
