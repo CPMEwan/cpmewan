@@ -49,12 +49,17 @@ def banner(console):
                 gradient_text.append(char, style=color_hex)
             else:
                 gradient_text.append(char)
+                
         gradient_text.append("\n")
+        
     console.print(gradient_text)
+    
     console.print("[bold][red]================================================================================================[/red][/bold]")
+    
     console.print("\t                 𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     
     console.print("                 [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
+    
     console.print("[bold][red]================================================================================================[/red][/bold]")
     
 def load_player_data(cpm):
@@ -62,12 +67,18 @@ def load_player_data(cpm):
     if response.get('ok'):
         data = response.get('data')
         if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
+        
             console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
+            
             console.print(
                 f"[bold green] Name   [/bold green]: {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.")
+                
             console.print(f"[bold green] LocalID[/bold green]: {data.get('localID')}.")
+            
             console.print(f"[bold green] Money  [/bold green]: {data.get('money')}.")
+            
             console.print(f"[bold green] Coins  [/bold green]: {data.get('coin')}.")
+            
         else:
             console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
             exit(1)
@@ -77,12 +88,18 @@ def load_player_data(cpm):
 
 
 def load_key_data(cpm):
+
     data = cpm.get_key_data()
+    
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
-    console.print(f"[bold green] Access Key [/bold green]: {data.get('access_key')}.")
-    console.print(f"[bold green] Telegram ID[/bold green]: {data.get('telegram_id')}.")
+    
+    console.print(f"[bold green] Your Key[/bold green]: {data.get('access_key')}.")
+    
+    console.print(f"[bold green] Your ID[/bold green]: {data.get('telegram_id')}.")
+    
     console.print(
-        f"[bold green] Credits    [/bold green]: {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}.")
+        f"[bold green] Your Credits[/bold green]: {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}.")
+        
     console.print("[bold][red]======================================[/red][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
@@ -238,7 +255,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
                 new_id = Prompt.ask("[bold][?] ID[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if len(new_id) >= 9 and len(new_id) <= 30 and (' ' in new_id) == False:
+                if len(new_id) >= 9 and len(new_id) <= 999999999 and (' ' in new_id) == False:
                     if cpm.set_player_localid(new_id.upper()):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
