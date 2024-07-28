@@ -101,7 +101,7 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ]Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
-    console.print "local_timezone: ", local_timezone
+    print "local_timezone: ", local_timezone
     
  local_timezone = tzlocal.get_localzone()
 print "local_timezone: ", local_timezone
