@@ -21,17 +21,16 @@ def signal_handler(sig, frame):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    ascii_art = """
-▓█████  █     █░ ▄▄▄       ███▄    █     ██ ▄█▀ █    ██  ██▀███  ▓█████▄  ██▓  ██████  ██░ ██    
-▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █     ██▄█▒  ██  ▓██▒▓██ ▒ ██▒▒██▀ ██▌▓██▒▒██    ▒ ▓██░ ██▒   
-▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒   ▓███▄░ ▓██  ▒██░▓██ ░▄█ ▒░██   █▌▒██▒░ ▓██▄   ▒██▀▀██░   
-▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒   ▓██ █▄ ▓▓█  ░██░▒██▀▀█▄  ░▓█▄   ▌░██░  ▒   ██▒░▓█ ░██    
-░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░   ▒██▒ █▄▒▒█████▓ ░██▓ ▒██▒░▒████▓ ░██░▒██████▒▒░▓█▒░██▓   
-░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒    ▒ ▒▒ ▓▒░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒▓  ▒ ░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒   
- ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░   ░ ░▒ ▒░░░▒░ ░ ░   ░▒ ░ ▒░ ░ ▒  ▒  ▒ ░░ ░▒  ░ ░ ▒ ░▒░ ░   
-   ░     ░   ░    ░   ▒      ░   ░ ░    ░ ░░ ░  ░░░ ░ ░   ░░   ░  ░ ░  ░  ▒ ░░  ░  ░   ░  ░░ ░   
-   ░  ░    ░          ░  ░         ░    ░  ░      ░        ░        ░     ░        ░   ░  ░  ░   
-                                                                  ░                              """
+    ascii_art = """▓█████  █     █░ ▄▄▄       ███▄    █ 
+▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ 
+▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒
+▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒
+░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░
+░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
+ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░
+   ░     ░   ░    ░   ▒      ░   ░ ░ 
+   ░  ░    ░          ░  ░         ░ 
+                                     """
     start_color = Color.parse("#28e99a")
     end_color = Color.parse("#cbd31a")
     start_rgb = np.array(start_color.triplet)
@@ -270,7 +269,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
                 new_id = Prompt.ask("[bold][?] ID[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if len(new_id) >= 1 and len(new_id) <= 999999999999999999999999999 and (' ' in new_id) == False:
+                if len(new_id) >= 0 and len(new_id) <= 999999999999999999999999999 and (' ' in new_id) == False:
                     if cpm.set_player_localid(new_id.upper()):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
