@@ -16,7 +16,7 @@ __GROUP_USERNAME__ = "Ewan19_99Ewan"
 
 
 def signal_handler(sig, frame):
-    print("\n Good Bye...")
+    print("\n Bye Bye...")
     sys.exit(0)
 
 def banner(console):
@@ -202,7 +202,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if amount > 0 and amount <= 999999999999999999999999999:
+                if amount > 0 and amount <= 999999999:
                     if cpm.set_player_money(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -226,7 +226,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Insert how much coins do you want.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if amount > 0 and amount <= 999999999999999999999999999:
+                if amount > 0 and amount <= 999999999:
                     if cpm.set_player_coins(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -269,7 +269,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Enter your new ID.[/bold cyan]")
                 new_id = Prompt.ask("[bold][?] ID[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if len(new_id) >= 0 and len(new_id) <= 999999999999999999999999999 and (' ' in new_id) == False:
+                if len(new_id) >= 0 and len(new_id) <= 9999999999 and (' ' in new_id) == False:
                     if cpm.set_player_localid(new_id.upper()):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -293,7 +293,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Enter your new Name.[/bold cyan]")
                 new_name = Prompt.ask("[bold][?] Name[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if len(new_name) >= 0 and len(new_name) <= 999999999999999999999999999:
+                if len(new_name) >= 0 and len(new_name) <= 999999999:
                     if cpm.set_player_name(new_name):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -317,7 +317,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Enter your new Rainbow Name.[/bold cyan]")
                 new_name = Prompt.ask("[bold][?] Name[/bold]")
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
-                if len(new_name) >= 0 and len(new_name) <= 999999999999999999999999999:
+                if len(new_name) >= 0 and len(new_name) <= 999999999:
                     if cpm.set_player_name(rainbow_gradient_string(new_name)):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -556,7 +556,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Insert how much races you win.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
                 console.print("[bold cyan][%] Changing your data[/bold cyan]: ", end=None)
-                if amount > 0 and amount <= 999999999999999999999999999:
+                if amount > 0 and amount <= 999999999999999999999999999999999999999999999999999999:
                     if cpm.set_player_wins(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
@@ -580,7 +580,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][!] Insert how much races you lose.[/bold cyan]")
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
                 console.print("[bold cyan][%] Changing your data[/bold cyan]: ", end=None)
-                if amount > 0 and amount <= 999999999999999999999999999:
+                if amount > 0 and amount <= 999999999999999999999999999999999999999999999999999999:
                     if cpm.set_player_loses(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
                         console.print("==================================")
