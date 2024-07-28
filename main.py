@@ -9,7 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-Python Convert Current UTC Time to Local Time
 import datetime
 import time
 import pytz # pip install pytz
