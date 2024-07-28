@@ -106,7 +106,6 @@ def load_key_data(cpm):
     current_local_time = datetime.datetime.now()
 
 current_utc_time = datetime.datetime.utcnow()
-print "Current UTC Time: ", current_utc_time
 
 ##UTC Time to Local Time
 #cat /etc/timezone
