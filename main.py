@@ -103,15 +103,6 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ]time zone[/bold green]:[bold cyan] {data.get('local_timezone')}[/bold cyan].")
     
-    current_local_time = datetime.datetime.now()
-
-current_utc_time = datetime.datetime.utcnow()
-
-##UTC Time to Local Time
-#cat /etc/timezone
-local_timezone = tzlocal.get_localzone()
-current_utc_time.replace(tzinfo=pytz.utc).astimezone(local_timezone)
-    
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
     console.print("[bold][red]======================================[/red][/bold]")
