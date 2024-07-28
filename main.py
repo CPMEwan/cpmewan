@@ -92,13 +92,11 @@ def load_key_data(cpm):
     
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
-    console.print(f"[bold green] Your Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
+    console.print(f"[bold green]Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
     
-    console.print(f"[bold green] Your Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
+    console.print(f"[bold green]Telegram ID[/bold green]:[bold cyan] {data.get('location')}[/bold cyan].")
     
-    console.log(Intl.DateTimeFormat().resolvedOptions().timeZone)
-    
-    console.print(f"[bold green] Your Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
+    console.print(f"[bold green]Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
     console.print("[bold][red]======================================[/red][/bold]")
 
