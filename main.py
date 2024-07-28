@@ -102,6 +102,8 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ]Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
+    console.print(f"[bold green ]time zone[/bold green]:[bold cyan] {data.get('local_timezone')}[/bold cyan].")
+    
     current_local_time = datetime.datetime.now()
 print "Current Local Time: ", current_local_time
 
