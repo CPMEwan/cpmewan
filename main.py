@@ -101,7 +101,10 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ]Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
-    console.print(f"[bold green ]time zone[/bold green]:[bold cyan] {data.get('local_timezone')}[/bold cyan].")
+    console.print "local_timezone: ", local_timezone
+    
+ local_timezone = tzlocal.get_localzone()
+print "local_timezone: ", local_timezone
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
