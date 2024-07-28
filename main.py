@@ -9,6 +9,12 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
+Python Convert Current UTC Time to Local Time
+import datetime
+import time
+import pytz # pip install pytz
+import tzlocal # pip install tzlocal
+
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -94,7 +100,20 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
     
-    console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
+    console.print(f"[bold green ]Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
+    
+    current_local_time = datetime.datetime.now()
+print "Current Local Time: ", current_local_time
+
+current_utc_time = datetime.datetime.utcnow()
+print "Current UTC Time: ", current_utc_time
+
+##UTC Time to Local Time
+#cat /etc/timezone
+local_timezone = tzlocal.get_localzone()
+print "local_timezone: ", local_timezone
+print "Current UTC Time to Local Time: ", \
+current_utc_time.replace(tzinfo=pytz.utc).astimezone(local_timezone)
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
