@@ -110,7 +110,6 @@ current_utc_time = datetime.datetime.utcnow()
 ##UTC Time to Local Time
 #cat /etc/timezone
 local_timezone = tzlocal.get_localzone()
-print "local_timezone: ", local_timezone
 print "Current UTC Time to Local Time: ", \
 current_utc_time.replace(tzinfo=pytz.utc).astimezone(local_timezone)
     
