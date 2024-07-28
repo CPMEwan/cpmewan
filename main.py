@@ -124,7 +124,7 @@ def rainbow_gradient_string(customer_name):
     for i, char in enumerate(customer_name):
         fraction = i / max(num_chars - 1, 1)
         interpolated_color = interpolate_color(start_color, end_color, fraction)
-        modified_string += '[{interpolated_color}]{char}'
+        modified_string += f'[{interpolated_color}]{char}'
     return modified_string
 
 
