@@ -9,11 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-import datetime
-import time
-import pytz # pip install pytz
-import tzlocal # pip install tzlocal
-
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -99,12 +94,7 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
     
-    console.print(f"[bold green ]Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
-    
-    local_timezone = tzlocal.get_localzone()
-    console.print(f"[bold green ]time zone[/bold green]:[bold cyan] {data.get('local_timezone')}[/bold cyan].")
-    
- 
+    console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
