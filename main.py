@@ -110,7 +110,6 @@ current_utc_time = datetime.datetime.utcnow()
 ##UTC Time to Local Time
 #cat /etc/timezone
 local_timezone = tzlocal.get_localzone()
-print "Current UTC Time to Local Time: ", \
 current_utc_time.replace(tzinfo=pytz.utc).astimezone(local_timezone)
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
