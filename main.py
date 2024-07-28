@@ -98,6 +98,8 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Your Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
+        console.print(f"[bold green] Your Telegram ID[/bold green]:[bold cyan] {data.get('timeZone')}[/bold cyan].")
+        
     console.print("[bold][red]======================================[/red][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
