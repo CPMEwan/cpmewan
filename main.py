@@ -9,6 +9,12 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
+import pytz
+from tzwhere import tzwhere
+
+tzwhere = tzwhere.tzwhere()
+timezone_str = tzwhere.tzNameAt(37.3880961, -5.9823299)
+print(timezone_str) #Europe/Madrid
 import datetime
 import pytz
 from tzwhere import tzwhere
