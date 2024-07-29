@@ -9,8 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-You can use tzwhere and pytz for this.
-
 import datetime
 import pytz
 from tzwhere import tzwhere
