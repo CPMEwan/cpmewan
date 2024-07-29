@@ -24,7 +24,6 @@ for location, (lat, lon) in locations.items():
     # Get the timezone object
 
     # Get the current time in that timezone
-    current_time = datetime.datetime.now(timezone)
 
     
     
