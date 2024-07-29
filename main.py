@@ -18,8 +18,6 @@ locations = {
     'Paris': (48.8566, 2.3522),
 }
 
-tz = tzwhere.tzwhere()
-
 for location, (lat, lon) in locations.items():
 
     # Get the timezone string for location
