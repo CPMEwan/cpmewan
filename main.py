@@ -21,8 +21,6 @@ locations = {
 for location, (lat, lon) in locations.items():
 
     # Get the timezone string for location
-    timezone_name = tz.tzNameAt(lat, lon)
-
     # Get the timezone object
     timezone = pytz.timezone(timezone_name)
 
