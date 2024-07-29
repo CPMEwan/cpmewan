@@ -10,7 +10,6 @@ from rich.text import Text
 import numpy as np
 import datetime
 import pytz
-from tzwhere import tzwhere
 
 
 locations = {
