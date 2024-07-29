@@ -22,7 +22,6 @@ for location, (lat, lon) in locations.items():
 
     # Get the timezone string for location
     # Get the timezone object
-    timezone = pytz.timezone(timezone_name)
 
     # Get the current time in that timezone
     current_time = datetime.datetime.now(timezone)
