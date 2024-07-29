@@ -8,8 +8,12 @@ from rich.prompt import Prompt, IntPrompt
 from rich.color import Color
 from rich.text import Text
 import numpy as np
+
+You can use tzwhere and pytz for this.
+
 import datetime
 import pytz
+from tzwhere import tzwhere
 
 
 locations = {
@@ -18,15 +22,20 @@ locations = {
     'Paris': (48.8566, 2.3522),
 }
 
+tz = tzwhere.tzwhere()
+
 for location, (lat, lon) in locations.items():
 
     # Get the timezone string for location
+    timezone_name = tz.tzNameAt(lat, lon)
+
     # Get the timezone object
+    timezone = pytz.timezone(timezone_name)
 
     # Get the current time in that timezone
+    current_time = datetime.datetime.now(timezone)
 
-    
-    
+    print(f'{location=} {timezone_name=} {str(current_time)=}')
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -113,8 +122,6 @@ def load_key_data(cpm):
     console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
-    
-    print(f'{location=} {timezone_name=} {str(current_time)=}')
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
