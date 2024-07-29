@@ -15,8 +15,8 @@ utcmoment_naive = datetime.utcnow()
 utcmoment = utcmoment_naive.replace(tzinfo=pytz.utc)
 
 # print "utcmoment_naive: {0}".format(utcmoment_naive) # python 2
-console.print("utcmoment_naive: {0}".format(utcmoment_naive))
-console.print("utcmoment:       {0}".format(utcmoment))
+console.print(f"utcmoment_naive: {0}".format(utcmoment_naive))
+console.print(f"utcmoment:       {0}".format(utcmoment))
 
 localFormat = "%Y-%m-%d %H:%M:%S"
 
