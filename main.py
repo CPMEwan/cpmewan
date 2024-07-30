@@ -9,19 +9,9 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 import os,sys,random
-import platform
-try:
-    import httpx
-    from colr import color
-    from pystyle import Anime as pyAnime
-    from pystyle import Colors as pyColors
-    from pystyle import Colorate as pyColorate
-    from pystyle import Center as pyCenter
-    from pystyle import System as pySystem
-    local_ip = httpx.get('https://api.ipify.org').text
+ local_ip = httpx.get('https://api.ipify.org').text
     response = httpx.get(f"https://ipinfo.io/{local_ip}/json")
     data_jaringan = response.json()
-
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
