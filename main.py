@@ -9,7 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 import os,sys,random
-    response = httpx.get(f"https://ipinfo.io/{local_ip}/json")
     data_jaringan = response.json()
 from cpmewan import CPMEwan
 
