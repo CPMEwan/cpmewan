@@ -96,9 +96,8 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
-    loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
+    console.print(f"Location ID: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}")
         
-    
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
     console.print("[bold][red]======================================[/red][/bold]")
