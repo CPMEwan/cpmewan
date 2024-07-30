@@ -9,37 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 
-import pytz
-from tzwhere import tzwhere
-
-tzwhere = tzwhere.tzwhere()
-timezone_str = tzwhere.tzNameAt(37.3880961, -5.9823299)
-print(timezone_str) #Europe/Madrid
-import datetime
-import pytz
-from tzwhere import tzwhere
-
-
-locations = {
-    'New York': (40.7128, -74.0059),
-    'London': (51.5074, -0.1278),
-    'Paris': (48.8566, 2.3522),
-}
-
-tz = tzwhere.tzwhere()
-
-for location, (lat, lon) in locations.items():
-
-    # Get the timezone string for location
-    timezone_name = tz.tzNameAt(lat, lon)
-
-    # Get the timezone object
-    timezone = pytz.timezone(timezone_name)
-
-    # Get the current time in that timezone
-    current_time = datetime.datetime.now(timezone)
-
-    print(f'{location=} {timezone_name=} {str(current_time)=}')
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
