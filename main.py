@@ -92,7 +92,7 @@ def load_key_data(cpm):
     
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
-    loc_info = f" access key: {data.get('access_key')}"
+    console.print = f" access key: {data.get('access_key')}"
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
