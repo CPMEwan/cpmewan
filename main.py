@@ -96,6 +96,15 @@ def load_key_data(cpm):
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
+    def heder():
+        pySystem.Clear()
+        print(f"build : {refresh_x()}")
+        versi_tampil = disp(generate(f"Topix SB CPM TOOLS {CURRENT_VERSION}"))
+        loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
+        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
+        isp_info = f"  ISP     \t: {data_jaringan.get('org')}"
+        isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
+    
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
     console.print("[bold][red]======================================[/red][/bold]")
