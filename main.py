@@ -9,7 +9,6 @@ from rich.color import Color
 from rich.text import Text
 import numpy as np
 import os,sys,random
-    import os,sys,random
 import platform
 try:
     import httpx
