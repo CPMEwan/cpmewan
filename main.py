@@ -93,8 +93,6 @@ def load_key_data(cpm):
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
     console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
-
-    loc_info(f"[bold green] Location [/bold green]:[bold cyan] {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}[/bold cyan].")
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
