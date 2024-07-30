@@ -92,20 +92,9 @@ def load_key_data(cpm):
     
     console.print("[bold][red]========[/red][ ACCESS KEY DETAILS ][red]========[/red][/bold]")
     
-    def heder():
-        pySystem.Clear()
-        print(f"build : {refresh_x()}")
-        versi_tampil = disp(generate(f"Topix SB CPM TOOLS {CURRENT_VERSION}"))
-        loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
-        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
-        isp_info = f"  ISP     \t: {data_jaringan.get('org')}"
-        isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
-        bannerwz = f"""{c("cyan","=======================================================================")}
-  {versi_tampil} {c("cyan","||")} {c("green","https://carparking.topixsb.dev/")}
-{c("cyan","=======================================================================")}
-{loc_info}
-{isp_info}"""
-        print(bannerwz)
+    console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
+
+    console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
     
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
