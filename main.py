@@ -97,7 +97,7 @@ def load_key_data(cpm):
     console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
     
     loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
-        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
+        
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
