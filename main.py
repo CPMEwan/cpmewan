@@ -21,44 +21,25 @@ def signal_handler(sig, frame):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    ascii_art = """ ▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ 
-▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ 
-▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒
-▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒
-▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░
-░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ 
-  ░  ▒   ░▒ ░     ░  ░      ░ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░
-░        ░░       ░      ░      ░     ░   ░    ░   ▒      ░   ░ ░ 
-░ ░                      ░      ░  ░    ░          ░  ░         ░ 
-░                                                                 """
-    start_color = Color.parse("#28e99a")
-    end_color = Color.parse("#cbd31a")
-    start_rgb = np.array(start_color.triplet)
-    end_rgb = np.array(end_color.triplet)
-    lines = ascii_art.split("\n")
-    max_len = max(len(line) for line in lines)
-    num_lines = len(lines)
-    gradient_text = Text()
-    for y, line in enumerate(lines):
-        for x, char in enumerate(line):
-            if char.strip():
-                position = (y / num_lines + x / max_len) / 2
-                color_rgb = start_rgb + position * (end_rgb - start_rgb)
-                color_hex = '#{:02x}{:02x}{:02x}'.format(int(color_rgb[0]), int(color_rgb[1]), int(color_rgb[2]))
-                gradient_text.append(char, style=color_hex)
-            else:
-                gradient_text.append(char)
-                
-        gradient_text.append("\n")
-        
-    console.print(gradient_text)
-    
+    brand_name =  "▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ \n"
+    brand_name += "▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ ╗\n"
+    brand_name += "▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒\n"
+    brand_name += "▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒\n"
+    brand_name += "▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░\n"
+    brand_name += "░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ \n"
+    brand_name =  "  ░  ▒   ░▒ ░     ░  ░      ░ ░ ░  ░  ▒ ░ ░    ▒   ▒▒ ░░ ░░   ░ ▒░\n"
+    brand_name += "░        ░░       ░      ░      ░     ░   ░    ░   ▒      ░   ░ ░ \n"
+    brand_name += "░ ░                      ░      ░  ░    ░          ░  ░         ░ \n"
+    colors = [
+        "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
+        "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
+        "rgb(255,0,255)"
+    ]
+    colorful_text = gradient_text(brand_name, colors)
+    console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
-    
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
-    
     console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
-    
     console.print("[bold][red]==================================================================[/red][/bold]")
     
 def load_player_data(cpm):
@@ -169,13 +150,13 @@ if __name__ == "__main__":
             console.print("[bold red]{02}[/bold red]: [bold cyan]Increase Coins[/bold cyan]           [bold green]3.500K[/bold green]")
             console.print("[bold red]{03}[/bold red]: [bold cyan]King Rank[/bold cyan]                [bold green]4.000K[/bold green]")
             console.print("[bold red]{04}[/bold red]: [bold cyan]Change ID[/bold cyan]                [bold green]3.500K[/bold green]")
-            console.print("[bold red]{05}[/bold red]: [bold cyan]Change Name[/bold cyan]              [bold green]1.00[/bold green]")
-            console.print("[bold red]{06}[/bold red]: [bold cyan]Change Name (Rainbow)[/bold cyan]    [bold green]1.00[/bold green]")
+            console.print("[bold red]{05}[/bold red]: [bold cyan]Change Name[/bold cyan]              [bold green]100[/bold green]")
+            console.print("[bold red]{06}[/bold red]: [bold cyan]Change Name (Rainbow)[/bold cyan]    [bold green]100[/bold green]")
             console.print("[bold red]{07}[/bold red]: [bold cyan]Number Plates[/bold cyan]            [bold green]2.000K[/bold green]")
             console.print("[bold red]{08}[/bold red]: [bold cyan]Account Delete[/bold cyan]           [bold green]FREE[/bold green]")
             console.print("[bold red]{09}[/bold red]: [bold cyan]Account Register[/bold cyan]         [bold green]FREE[/bold green]")
-            console.print("[bold red]{10}[/bold red]: [bold cyan]Delete Friends[/bold cyan]           [bold green]5.00[/bold green]")
-            console.print("[bold red]{11}[/bold red]: [bold cyan]Unlock Paid Cars[/bold cyan]         [bold green]4.000K[/bold green]")
+            console.print("[bold red]{10}[/bold red]: [bold cyan]Delete Friends[/bold cyan]           [bold green]500[/bold green]")
+            console.print("[bold red]{11}[/bold red]: [bold cyan]Unlock Paid Cars[/bold cyan]         [bold green]4000K[/bold green]")
             console.print("[bold red]{12}[/bold red]: [bold cyan]Unlock all Cars[/bold cyan]          [bold green]3.000K[/bold green]")
             console.print("[bold red]{13}[/bold red]: [bold cyan]Unlock all Cars Siren[/bold cyan]    [bold green]2.000K[/bold green]")
             console.print("[bold red]{14}[/bold red]: [bold cyan]Unlock w16 Engine[/bold cyan]        [bold green]3.000K[/bold green]")
