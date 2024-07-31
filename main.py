@@ -91,7 +91,7 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
-    console.print("[bold][red]======================================[/red][/bold]")
+    console.print("[bold][red]==================𝐌𝐞𝐧𝐮================[/red][/bold]")
 
 def prompt_valid_value(content, tag, password=False):
     while True:
