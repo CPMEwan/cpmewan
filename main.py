@@ -539,5 +539,3 @@ if __name__ == "__main__":
             else: continue
             break
         break
-        
-        console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
