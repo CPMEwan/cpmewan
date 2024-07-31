@@ -54,7 +54,6 @@ def banner(console):
 x = datetime.datetime.now()
 print(x.year)
 print(x.strftime("%A"))
-    console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
     console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
