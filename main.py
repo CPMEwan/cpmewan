@@ -178,9 +178,9 @@ if __name__ == "__main__":
             console.print("[bold red]{21}[/bold red]: [bold cyan]Change Race Loses[/bold cyan]        [bold green]1.000K[/bold green]")
             console.print("[bold red]{22}[/bold red]: [bold cyan]Clone Account[/bold cyan]            [bold green]5.000K[/bold green]")
             console.print("[bold red]{0} [/bold red]: [bold cyan]Exit[/bold cyan]", end="\n\n")
-            console.print(f"[bold green] Money  [/bold green]:[bold cyan] {data.get('money')}[/bold cyan].")
+            console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
-            console.print(f"[bold green] Money  [/bold green]:[bold cyan] {data.get('money')}[/bold cyan].")
+            console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
             if service == 0: # Exit
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
             elif service == 1: # Increase Money
