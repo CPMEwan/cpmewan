@@ -182,6 +182,7 @@ if __name__ == "__main__":
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
             console.print("[bold][red]===============[/bold][/red][ 𝐂𝐩𝐦☆ ][bold][red]===============[/red][/bold]")
             if service == 0: # Exit
+                console.print("[bold][red]===============[/bold][/red][ 𝐂𝐩𝐦☆ ][bold][red]===============[/red][/bold]")
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
             elif service == 1: # Increase Money
                 console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
