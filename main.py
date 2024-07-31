@@ -117,7 +117,7 @@ def rainbow_gradient_string(customer_name):
         interpolated_color = interpolate_color(start_color, end_color, fraction)
         modified_string += f'[{interpolated_color}]{char}'
     return modified_string
-console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
+
 if __name__ == "__main__":
     console = Console()
     signal.signal(signal.SIGINT, signal_handler)
@@ -539,3 +539,5 @@ if __name__ == "__main__":
             else: continue
             break
         break
+        
+        console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
