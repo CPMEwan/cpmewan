@@ -48,7 +48,7 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    print("[bold][red]==================================================================[/red][/bold]")
+    console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
     console.print("[bold][red]==================================================================[/red][/bold]")
@@ -62,9 +62,9 @@ def load_player_data(cpm):
             console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
             
             console.print(
-                f"[bold green] Name   [/bold green]:[bold cyan] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
+                f"[bold green] Name   [/bold green]:[bold cyan]") console.print(" {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
                 
-            print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
+            console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
             
             console.print(f"[bold green] Money  [/bold green]:[bold cyan] {data.get('money')}[/bold cyan].")
             
