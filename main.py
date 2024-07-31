@@ -177,7 +177,7 @@ if __name__ == "__main__":
             console.print("[bold red]{20}[/bold red]: [bold cyan]Change Race Wins[/bold cyan]         [bold green]1.000K[/bold green]")
             console.print("[bold red]{21}[/bold red]: [bold cyan]Change Race Loses[/bold cyan]        [bold green]1.000K[/bold green]")
             console.print("[bold red]{22}[/bold red]: [bold cyan]Clone Account[/bold cyan]            [bold green]5.000K[/bold green]")
-            console.print("[bold red]{0} [/bold red]: [bold cyan]Exit[/bold cyan]", end="\n\n")
+            console.print("[bold red]{0} [/bold red]: [bold cyan]Exit[/bold cyan]")
             
             console.print("[bold][red]======================================[/red][/bold]")
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
