@@ -7,6 +7,12 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
+import datetime
+
+x = datetime.datetime(2018, 6, 1)
+
+print(x.strftime("%B"))
+
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
