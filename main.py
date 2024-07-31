@@ -54,7 +54,6 @@ def banner(console):
 x = datetime.datetime.now()
 print(x.year)
 print(x.strftime("%A"))
-    console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
