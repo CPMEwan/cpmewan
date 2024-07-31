@@ -178,8 +178,9 @@ if __name__ == "__main__":
             console.print("[bold red]{22}[/bold red]: [bold cyan]Clone Account[/bold cyan]            [bold green]5.000K[/bold green]")
             console.print("[bold red]{0} [/bold red]: [bold cyan]Exit[/bold cyan]")
             
-            console.print("[bold][red]======================================[/red][/bold]")
+            console.print("[bold][red]===============[/bold][/red][ 𝐂𝐩𝐦☆ ][bold][red]===============[/red][/bold]")
             service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
+            console.print("[bold][red]===============[/bold][/red][ 𝐂𝐩𝐦☆ ][bold][red]===============[/red][/bold]")
             if service == 0: # Exit
                 console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
             elif service == 1: # Increase Money
