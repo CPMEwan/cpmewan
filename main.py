@@ -51,7 +51,7 @@ def banner(console):
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
-    console.print("       [bold][red][𝐓𝐢𝐤𝐓𝐨𝐤[/bold][/red]: [bold][green]𝐄𝐰𝐚𝐧.𝐒𝐡𝐞𝐱.𝐀𝐥𝐢][/bold][/green] [bold][yellow]☆☆☆[/bold][/yellow] [bold][red][𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦[/bold][/red]: [bold][green]𝐄𝐰𝐚𝐧.𝐒𝐡𝐞𝐱.𝐀𝐥𝐢][/bold][/green]")
+    console.print("       [𝐓𝐢𝐤𝐓𝐨𝐤: [bold][green]𝐄𝐰𝐚𝐧.𝐒𝐡𝐞𝐱.𝐀𝐥𝐢][/bold][/green] [bold][yellow]☆☆☆[/bold][/yellow] [𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: [bold][green]𝐄𝐰𝐚𝐧.𝐒𝐡𝐞𝐱.𝐀𝐥𝐢][/bold][/green]")
     console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
