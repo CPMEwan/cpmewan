@@ -62,7 +62,7 @@ def load_player_data(cpm):
             console.print("[bold][red]==========[/red][ PLAYER DETAILS ][red]==========[/red][/bold]")
             
             console.print(
-                f"[bold green] Name   [/bold green]:[bold cyan]") console.print(" {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
+                "[bold green] Name   [/bold green]:[bold cyan] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
                 
             console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
             
