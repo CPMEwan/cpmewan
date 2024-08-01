@@ -46,8 +46,6 @@ datetime_obj = datetime.datetime.strptime(
 console.print("converted to datetime:")
  
 console.print(datetime_obj)
- 
-console.print("datetime_obj class is :", 
 
 
 def banner(console):
