@@ -33,6 +33,23 @@ def gradient_text(text, colors):
         colorful_text.append("\n")
     return colorful_text
 
+import datetime
+ 
+console.print = '2021-09-01 15:27:05.004573 +0530'
+console.print("string datetime: ")
+console.print(date_string)
+console.print("datestring class is :", type(date_string))
+ 
+datetime_obj = datetime.datetime.strptime(
+    date_string, '%Y-%m-%d %H:%M:%S.%f %z')
+ 
+console.print("converted to datetime:")
+ 
+console.print(datetime_obj)
+ 
+console.print("datetime_obj class is :", 
+
+
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
     brand_name =  "▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ \n"
