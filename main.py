@@ -43,7 +43,7 @@ for zone in timezonelist:
 
     now_time = datetime.now(timezone(zone))
     
-
+console.print(f"datetime_obj class is :", 
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
