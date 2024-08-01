@@ -2,6 +2,8 @@
 
 import random
 from time import sleep
+from datetime import datetime
+from pytz import timezone
 import os, signal, sys
 from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
@@ -33,18 +35,14 @@ def gradient_text(text, colors):
         colorful_text.append("\n")
     return colorful_text
 
-import datetime
- 
-console.print("string datetime: ")
-console.print(date_string)
-console.print("datestring class is :", type(date_string))
- 
-datetime_obj = datetime.datetime.strptime(
-    date_string, '%Y-%m-%d %H:%M:%S.%f %z')
- 
-console.print("converted to datetime:")
- 
-console.print(datetime_obj)
+
+
+fmt = "%Y-%m-%d %H:%M:%S %Z%z"
+timezonelist = ['UTC','US/Pacific','Europe/Berlin']
+for zone in timezonelist:
+
+    now_time = datetime.now(timezone(zone))
+    print now_time.strftime(fmt)
 
 
 def banner(console):
