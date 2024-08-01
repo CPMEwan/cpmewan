@@ -14,8 +14,7 @@ import time
 # Main Function 
 if __name__ == '__main__': 
     
-    # Create a workbook object 
-    wb = Workbook() 
+    
   
     # Select the active sheet 
     ws = wb.active 
