@@ -35,7 +35,6 @@ def gradient_text(text, colors):
 
 import datetime
  
-console.print = '2021-09-01 15:27:05.004573 +0530'
 console.print("string datetime: ")
 console.print(date_string)
 console.print("datestring class is :", type(date_string))
