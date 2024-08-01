@@ -8,7 +8,6 @@ from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
 import datetime 
-from openpyxl import Workbook 
 import time 
   
   
