@@ -57,6 +57,20 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
 
+def heder():
+        pySystem.Clear()
+        print(f"build : {refresh_x()}")
+        versi_tampil = disp(generate(f"Topix SB CPM TOOLS {CURRENT_VERSION}"))
+        loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
+        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
+        isp_info = f"  ISP     \t: {data_jaringan.get('org')}"
+        isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
+        bannerwz = f"""{c("cyan","=======================================================================")}
+  {versi_tampil} {c("cyan","||")} {c("green","https://carparking.topixsb.dev/")}
+{c("cyan","=======================================================================")}
+{loc_info}
+{isp_info}"""
+
 def load_player_data(cpm):
     response = cpm.get_player_data()
     if response.get('ok'):
