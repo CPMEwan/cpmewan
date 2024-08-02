@@ -65,7 +65,7 @@ def load_player_data(cpm):
         
             print(Colorate.Horizontal(Colors.rainbow, '==========[ PLAYER DETAILS ]=========='))
             
-            print(Colorate.Horizontal(Colors.rainbow, f' Name   : {(data.get('Name') if 'Name' in data else 'UNDEFINED')}.'))
+            print(Colorate.Horizontal(Colors.rainbow, f' Name   : {(data.get('Name') if 'Name' in data else 'UNDEFINED')}'))
                 
             console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
             
