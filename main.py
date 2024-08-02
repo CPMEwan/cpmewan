@@ -57,8 +57,8 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     t = datetime.now()
-newdate = datetime.strftime(f, "%d/%m/%Y %H:%M:%S")
-print(f)
+newdate = datetime.strftime(t, "%d/%m/%Y %H:%M:%S")
+print(t)
 # result: 2018-01-25 19:30:04.829242
 
 print(f"Formatted Date: " + str(newdate))
