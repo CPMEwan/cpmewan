@@ -9,6 +9,8 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
+import random
+import string
 
 from cpmewan import CPMEwan
 
@@ -80,6 +82,19 @@ def load_player_data(cpm):
         print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
+
+def randomString(stringLength):
+    letters = string.ascii_letters
+    return ''.join(random.choice(letters) for i in range(stringLength))
+    def get_author(user):
+        if user.is_anonymous:
+            random_username = f"{randomString(10)}_guest"
+            random_email = f"{randomString(5)}_guest@example.com"
+            guest_user = User.objects.create(username=random_username, is_active=False, email=random_email...) 
+            guest_author = Author.objects.create(user=guest_user, department="none")
+            return guest_author
+         else:
+         return Author.objects.get(user=user)
 
 def load_key_data(cpm):
 
