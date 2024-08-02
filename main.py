@@ -183,7 +183,7 @@ if __name__ == "__main__":
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
             
-            service = IntPrompt.ask(Colorate.Horizontal(Colors.rainbow, f'[?] Select a Service [1-{choices[-1]} or 0]', choices=choices, show_choices=False))
+            service = IntPrompt.ask(f"[bold][?] Select a Service [blue][1-{choices[-1]} or 0][/blue][/bold]", choices=choices, show_choices=False)
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
             
