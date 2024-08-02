@@ -70,7 +70,7 @@ def load_player_data(cpm):
                 
             console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
             
-            print(Colorate.Horizontal(Colors.rainbow, f'Money  : {data.get('money')}.'))
+            print(Colorate.Horizontal(Colors.rainbow, f'Money  : {data.get("money")}.'))
             
             console.print(f"[bold green] Coins  [/bold green]:[bold cyan] {data.get('coin')}[/bold cyan].")
             
