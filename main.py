@@ -9,8 +9,7 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-import random
-import string
+from datetime import datetime
 
 from cpmewan import CPMEwan
 
@@ -83,25 +82,27 @@ def load_player_data(cpm):
         exit(1)
 
 
-def randomString(stringLength):
-    letters = string.ascii_letters
-    return ''.join(random.choice(letters) for i in range(stringLength))
-    def get_author(user):
-        if user.is_anonymous:
-            random_username = f"{randomString(10)}_guest"
-            random_email = f"{randomString(5)}_guest@example.com"
-            guest_author = Author.objects.create(user=guest_user, department="none")
-            return guest_author
-         else:
-         return Author.objects.get(user=user)
-
 def load_key_data(cpm):
 
     data = cpm.get_key_data()
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
-    print(Colorate.Horizontal(Colors.rainbow, f' Access Key : {data.get("access_key")}.'))
+    current_dateTime = datetime.now()
+
+print(current_dateTime.year) # 2022
+
+print(current_dateTime.month) # 9
+
+print(current_dateTime.day) # 20
+
+print(current_dateTime.hour) # 11
+
+print(current_dateTime.minute) # 27
+
+print(current_dateTime.second) # 46
+
+print(current_dateTime.microsecond) # 582035
     
     print(Colorate.Horizontal(Colors.rainbow, f' Telegram ID: {data.get("telegram_id")}.'))
     
