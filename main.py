@@ -7,14 +7,6 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-import pycolor
-import sys
-from pycolor import color_string
-from sys import stderr
-print('nyan')
-error_nyan = color_string('ERROR! Unexpected Nyan\n', fg_color = 'rainbow')
-stderr.write(error_nyan)
-
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -58,7 +50,9 @@ def banner(console):
     console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
-
+    console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
+    console.print(f"             [bold green]𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦[/bold green]: [bold cyan]@{__CHANNEL_USERNAME__}[/bold cyan] 𝐎𝐫 [bold cyan]@{__GROUP_USERNAME__}[/bold cyan]") 
+    console.print("[bold][red]==================================================================[/red][/bold]")
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
