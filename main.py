@@ -74,10 +74,10 @@ def load_player_data(cpm):
             print(Colorate.Horizontal(Colors.rainbow, f' Coins  : {data.get("coin")}.'))
             
         else:
-            console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
+            print(Colorate.Horizontal(Colors.rainbow, '! ERROR: new accounts most be signed-in to the game at least once !.'))
             exit(1)
     else:
-        console.print("[bold red]! ERROR[/bold red]: seems like your login is not properly set !.")
+        print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
 
@@ -87,11 +87,11 @@ def load_key_data(cpm):
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
-    console.print(f"[bold green] Access Key [/bold green]:[bold cyan] {data.get('access_key')}[/bold cyan].")
+    print(Colorate.Horizontal(Colors.rainbow, f' Access Key : {data.get("access_key")}.'))
     
-    console.print(f"[bold green ] Telegram ID[/bold green]:[bold cyan] {data.get('telegram_id')}[/bold cyan].")
+    print(Colorate.Horizontal(Colors.rainbow, f' Telegram ID: {data.get("telegram_id")}.'))
     
-    console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
+    print(Colorate.Horizontal(Colors.rainbow, f' Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
         
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
@@ -99,7 +99,7 @@ def prompt_valid_value(content, tag, password=False):
     while True:
         value = Prompt.ask(content, password=password)
         if not value or value.isspace():
-            print(f"{tag} cannot be empty or just spaces. Please try again.")
+            print(Colorate.Horizontal(Colors.rainbow, f'{tag} cannot be empty or just spaces. Please try again.'))
         else:
             return value
 
@@ -133,24 +133,24 @@ if __name__ == "__main__":
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
-                console.print("[bold red]ACCOUNT NOT FOUND[/bold red].")
+                print(Colorate.Horizontal(Colors.rainbow, 'ACCOUNT NOT FOUND.'))
                 sleep(2)
                 continue
             elif login_response == 101:
-                console.print("[bold red]WRONG PASSWORD[/bold red].")
+                print(Colorate.Horizontal(Colors.rainbow, 'WRONG PASSWORD.'))
                 sleep(2)
                 continue
             elif login_response == 103:
-                console.print("[bold red]INVALID ACCESS KEY[/bold red].")
+                print(Colorate.Horizontal(Colors.rainbow, 'INVALID ACCESS KEY[/bold red].'))
                 sleep(2)
                 continue
             else:
-                console.print("[bold red]TRY AGAIN[/bold red].")
-                console.print("[bold yellow]! Note[/bold yellow]: make sure you filled out the fields !.")
+                print(Colorate.Horizontal(Colors.rainbow, 'TRY AGAIN.'))
+                print(Colorate.Horizontal(Colors.rainbow, '! Note[/bold yellow]: make sure you filled out the fields !.'))
                 sleep(2)
                 continue
         else:
-            console.print("[bold green]SUCCESSFUL[/bold green].")
+            print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL.'))
             sleep(2)
         while True:
             banner(console)
@@ -188,17 +188,17 @@ if __name__ == "__main__":
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
             
             if service == 0: # Exit
-                console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
             elif service == 1: # Increase Money
-                console.print("[bold cyan][!] Insert how much money do you want.[/bold cyan]")
+                print(Colorate.Horizontal(Colors.rainbow, '[!] Insert how much money do you want.'))
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
-                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
+                print(Colorate.Horizontal(Colors.rainbow, '[%] Saving your data: ', end=None)
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_money(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -218,8 +218,8 @@ if __name__ == "__main__":
                     if cpm.set_player_coins(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -239,8 +239,8 @@ if __name__ == "__main__":
                 if cpm.set_player_rank():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -255,8 +255,8 @@ if __name__ == "__main__":
                     if cpm.set_player_localid(new_id.upper()):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -276,8 +276,8 @@ if __name__ == "__main__":
                     if cpm.set_player_name(new_name):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -297,8 +297,8 @@ if __name__ == "__main__":
                     if cpm.set_player_name(rainbow_gradient_string(new_name)):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -315,8 +315,8 @@ if __name__ == "__main__":
                 if cpm.set_player_plates():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -360,8 +360,8 @@ if __name__ == "__main__":
                 if cpm.delete_player_friends():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -374,8 +374,8 @@ if __name__ == "__main__":
                 if cpm.unlock_paid_cars():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -387,8 +387,8 @@ if __name__ == "__main__":
                 if cpm.unlock_all_cars():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -400,8 +400,8 @@ if __name__ == "__main__":
                 if cpm.unlock_all_cars_siren():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -413,8 +413,8 @@ if __name__ == "__main__":
                 if cpm.unlock_w16():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -426,8 +426,8 @@ if __name__ == "__main__":
                 if cpm.unlock_horns():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -439,8 +439,8 @@ if __name__ == "__main__":
                 if cpm.disable_engine_damage():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -452,8 +452,8 @@ if __name__ == "__main__":
                 if cpm.unlimited_fuel():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -465,8 +465,8 @@ if __name__ == "__main__":
                 if cpm.unlock_houses():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -478,8 +478,8 @@ if __name__ == "__main__":
                 if cpm.unlock_smoke():
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
@@ -494,8 +494,8 @@ if __name__ == "__main__":
                     if cpm.set_player_wins(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -515,8 +515,8 @@ if __name__ == "__main__":
                     if cpm.set_player_loses(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                                answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
                         console.print("[bold red]FAILED.[/bold red]")
@@ -536,8 +536,8 @@ if __name__ == "__main__":
                 if cpm.account_clone(to_email, to_password):
                     print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                    answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                    if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                                            answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
                     else: continue
                 else:
                     console.print("[bold red]FAILED.[/bold red]")
