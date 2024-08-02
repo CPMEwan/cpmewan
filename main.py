@@ -11,25 +11,6 @@ import pystyle
 from pystyle import Colors, Colorate
 from pystyle import Write, Colors
 
-def black_to_gray(colors, gc="159;159;159"):
-    def make_rgb(rgb_str):
-        return tuple(map(int, rgb_str.split(";")))
-
-    def luminance(rgb):
-        return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
-
-    return [gc if luminance(make_rgb(c)) < 128 else c for c in colors]
-    Write.Print(f'''                                                          
-                                         ██████╗ ██████╗ ███████╗██╗  ██╗ ██████╗
-                                         ██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔════╝
-                                         ██║  ██║██████╔╝█████╗   ╚███╔╝ ██║     
-                                         ██║  ██║██╔══██╗██╔══╝   ██╔██╗ ██║     
-                                         ██████╔╝██║  ██║███████╗██╔╝ ██╗╚██████╗
-                                         ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝
-                                                                                   
-                                                      
- ''', Colors.white_to_black, interval=0.0000)
-
 
 from cpmewan import CPMEwan
 
@@ -56,6 +37,25 @@ def gradient_text(text, colors):
                 colorful_text.append(char)
         colorful_text.append("\n")
     return colorful_text
+
+def black_to_gray(colors, gc="159;159;159"):
+    def make_rgb(rgb_str):
+        return tuple(map(int, rgb_str.split(";")))
+
+    def luminance(rgb):
+        return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+
+    return [gc if luminance(make_rgb(c)) < 128 else c for c in colors]
+    Write.Print(f'''                                                          
+                                         ██████╗ ██████╗ ███████╗██╗  ██╗ ██████╗
+                                         ██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔════╝
+                                         ██║  ██║██████╔╝█████╗   ╚███╔╝ ██║     
+                                         ██║  ██║██╔══██╗██╔══╝   ██╔██╗ ██║     
+                                         ██████╔╝██║  ██║███████╗██╔╝ ██╗╚██████╗
+                                         ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝
+                                                                                   
+                                                      
+ ''', Colors.white_to_black, interval=0.0000)
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
