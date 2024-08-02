@@ -7,7 +7,13 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from pystyle import Write, Colors
+import pycolor
+import sys
+from pycolor import color_string
+from sys import stderr
+print('nyan')
+error_nyan = color_string('ERROR! Unexpected Nyan\n', fg_color = 'rainbow')
+stderr.write(error_nyan)
 
 from cpmewan import CPMEwan
 
@@ -52,8 +58,6 @@ def banner(console):
     console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
-    name = Write.Input("Enter your name -> ", Colors.red_to_purple, interval=0.0025)
-Print(f"Nice to meet you, {name}!", Colors.blue_to_green, interval=0.05)
 
 
 def load_player_data(cpm):
