@@ -7,7 +7,6 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from pystyle import Write, Colors
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -52,8 +51,6 @@ def banner(console):
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
     console.print("   [bold][red]  𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃[/bold][red]")
-    name = Write.Input("Enter your name -> ", Colors.red_to_purple, interval=0.0025)
-Write.Print(f"Nice to meet you, {name}!", Colors.blue_to_green, interval=0.05)
     console.print(f"             [bold green]𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦[/bold green]: [bold cyan]@{__CHANNEL_USERNAME__}[/bold cyan] 𝐎𝐫 [bold cyan]@{__GROUP_USERNAME__}[/bold cyan]") 
     console.print("[bold][red]==================================================================[/red][/bold]")
 
