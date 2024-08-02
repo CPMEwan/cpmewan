@@ -7,6 +7,9 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
+from pystyle import Center
+print(Center.XCenter("Hello, Welcome to Pystyle."))
+
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
