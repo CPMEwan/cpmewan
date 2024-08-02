@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from pystyle import Colors, Colorate
+from pystyle import Write, Colors
 
 from cpmewan import CPMEwan
 
@@ -52,7 +52,9 @@ def banner(console):
     console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
-console.print(Colorate.Horizontal(Colors.yellow_to_red, "Hello, Welcome to Pystyle.", 1))
+    name = Write.Input("Enter your name -> ", Colors.red_to_purple, interval=0.0025)
+Write.Print(f"Nice to meet you, {name}!", Colors.blue_to_green, interval=0.05)
+
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
