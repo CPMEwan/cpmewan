@@ -94,6 +94,7 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
+        print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -217,7 +218,7 @@ if __name__ == "__main__":
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_coins(amount):
                         console.print("[bold green]SUCCESSFUL.[/bold green]")
-                        print(Colorate.Horizontal(Colors.rainbow, '=================================='))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================='))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
                         else: continue
