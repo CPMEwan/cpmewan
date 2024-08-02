@@ -52,8 +52,8 @@ def banner(console):
     console.print(colorful_text)
     console.print("[bold][red]==================================================================[/red][/bold]")
     console.print("\t   𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋")
-print(Box.Lines(f"Hello, Welcome."))
-print(Box.DoubleCube(f"Hello, Welcome."))
+console.print(Box.Lines(f"Hello, Welcome."))
+console.print(Box.DoubleCube(f"Hello, Welcome."))
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
