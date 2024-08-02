@@ -9,7 +9,27 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-from pystyle import Center
+from pystyle import Write, Colors
+
+def black_to_gray(colors, gc="159;159;159"):
+    def make_rgb(rgb_str):
+        return tuple(map(int, rgb_str.split(";")))
+
+    def luminance(rgb):
+        return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+
+    return [gc if luminance(make_rgb(c)) < 128 else c for c in colors]
+    Write.Print(f'''                                                          
+                                         ██████╗ ██████╗ ███████╗██╗  ██╗ ██████╗
+                                         ██╔══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔════╝
+                                         ██║  ██║██████╔╝█████╗   ╚███╔╝ ██║     
+                                         ██║  ██║██╔══██╗██╔══╝   ██╔██╗ ██║     
+                                         ██████╔╝██║  ██║███████╗██╔╝ ██╗╚██████╗
+                                         ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝
+                                                                                   
+                                                      
+ ''', Colors.white_to_black, interval=0.0000)
+
 
 from cpmewan import CPMEwan
 
@@ -57,8 +77,6 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
-
-print(Center.XCenter(Colorate.Horizontal(Colors.rainbow, f'Hello, Welcome to Pystyle')))
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
