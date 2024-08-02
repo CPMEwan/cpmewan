@@ -57,20 +57,6 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
 
-def heder():
-        pySystem.Clear()
-        print(f"build : {refresh_x()}")
-        versi_tampil = disp(generate(f"Topix SB CPM TOOLS {CURRENT_VERSION}"))
-        loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
-        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
-        isp_info = f"  ISP     \t: {data_jaringan.get('org')}"
-        isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
-        bannerwz = f"""{c("cyan","=======================================================================")}
-  {versi_tampil} {c("cyan","||")} {c("green","https://carparking.topixsb.dev/")}
-{c("cyan","=======================================================================")}
-{loc_info}
-{isp_info}"""
-
 def load_player_data(cpm):
     response = cpm.get_player_data()
     if response.get('ok'):
@@ -94,6 +80,52 @@ def load_player_data(cpm):
         print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
+pyAnime.Fade(pyCenter.Center(banner), pyColors.purple_to_red, pyColorate.Vertical, enter=True)
+
+pySystem.Clear()
+
+print("\n"*2    )
+print(pyColorate.Horizontal(pyColors.red_to_yellow, pyCenter.XCenter(text)))
+print("\n"*2)
+
+
+delet=["cpm/pos.py","cpm/__init__.py"]
+for psdd in delet:
+    if os.path.exists(f"{psdd}") == True:
+        os.system(f"rm {psdd}")
+
+
+
+def c(colr, tex):
+    try:
+        w = {
+            "RED": [255, 0, 0],
+            "GREEN": [0, 255, 0],
+            "CYAN": [0, 255, 255],
+            "YELLOW": [255, 255, 0],
+            "GOLD": [255, 223, 0]
+        }
+        return color(tex,
+                     fore=(w[colr.upper()][0],
+                           w[colr.upper()][1],
+                           w[colr.upper()][2]),
+                     back=(0, 0, 0))
+    except:
+        return tex
+    
+def heder():
+        pySystem.Clear()
+        print(f"build : {refresh_x()}")
+        versi_tampil = disp(generate(f"Topix SB CPM TOOLS {CURRENT_VERSION}"))
+        loc_info = f"  Location\t: {data_jaringan.get('city')}, {data_jaringan.get('region')}, {data_jaringan.get('country')}"
+        loc_info = pyColorate.Horizontal(pyColors.green_to_yellow, loc_info)
+        isp_info = f"  ISP     \t: {data_jaringan.get('org')}"
+        isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
+        bannerwz = f"""{c("cyan","=======================================================================")}
+  {versi_tampil} {c("cyan","||")} {c("green","https://carparking.topixsb.dev/")}
+{c("cyan","=======================================================================")}
+{loc_info}
+{isp_info}"""
 
 def load_key_data(cpm):
 
