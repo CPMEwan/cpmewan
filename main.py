@@ -17,7 +17,7 @@ newdate = datetime.strftime(t, "%d/%m/%Y %H:%M:%S")
 print(t)
 # result: 2018-01-25 19:30:04.829242
 
-print("Formatted Date: " + str(newdate))
+print(f"Formatted Date: " + str(newdate))
 # Formatted Date: 25/01/2018 19
 from cpmewan import CPMEwan
 
