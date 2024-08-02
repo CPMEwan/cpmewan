@@ -90,7 +90,6 @@ def randomString(stringLength):
         if user.is_anonymous:
             random_username = f"{randomString(10)}_guest"
             random_email = f"{randomString(5)}_guest@example.com"
-            guest_user = User.objects.create(username=random_username, is_active=False, email=random_email...) 
             guest_author = Author.objects.create(user=guest_user, department="none")
             return guest_author
          else:
