@@ -9,8 +9,12 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-from datetime import datetime
+import datetime
 
+def now():
+    return datetime.datetime.now()
+
+print now()
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -88,21 +92,7 @@ def load_key_data(cpm):
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
-    current_dateTime = datetime.now()
-
-print(current_dateTime.year) # 2022
-
-print(current_dateTime.month) # 9
-
-print(current_dateTime.day) # 20
-
-print(current_dateTime.hour) # 11
-
-print(current_dateTime.minute) # 27
-
-print(current_dateTime.second) # 46
-
-print(current_dateTime.microsecond) # 582035
+    print(Colorate.Horizontal(Colors.rainbow, f' Access Key : {data.get("access_key")}.'))
     
     print(Colorate.Horizontal(Colors.rainbow, f' Telegram ID: {data.get("telegram_id")}.'))
     
