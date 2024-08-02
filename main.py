@@ -63,7 +63,7 @@ print(f)
 
 print(f"Formatted Date: " + str(newdate))
 # Formatted Date: 25/01/2018 19
-    print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
+    
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
