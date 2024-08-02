@@ -158,29 +158,29 @@ if __name__ == "__main__":
             load_player_data(cpm)
             load_key_data(cpm)
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
-            console.print("[bold green]{01}[/bold green]: [bold cyan]Increase Money[/bold cyan]           [bold red]1.000K[/bold red]")
-            console.print("[bold green]{02}[/bold green]: [bold cyan]Increase Coins[/bold cyan]           [bold red]3.500K[/bold red]")
-            console.print("[bold green]{03}[/bold green]: [bold cyan]King Rank[/bold cyan]                [bold red]4.000K[/bold red]")
-            console.print("[bold green]{04}[/bold green]: [bold cyan]Change ID[/bold cyan]                [bold red]3.500K[/bold red]")
-            console.print("[bold green]{05}[/bold green]: [bold cyan]Change Name[/bold cyan]              [bold red]1.00[/bold red]")
-            console.print("[bold green]{06}[/bold green]: [bold cyan]Change Name (Rainbow)[/bold cyan]    [bold red]1.00[/bold red]")
-            console.print("[bold green]{07}[/bold green]: [bold cyan]Number Plates[/bold cyan]            [bold red]2.000K[/bold red]")
-            console.print("[bold green]{08}[/bold green]: [bold cyan]Account Delete[/bold cyan]           [bold red]FREE[/bold red]")
-            console.print("[bold green]{09}[/bold green]: [bold cyan]Account Register[/bold cyan]         [bold red]FREE[/bold red]")
-            console.print("[bold green]{10}[/bold green]: [bold cyan]Delete Friends[/bold cyan]           [bold red]5.00[/bold red]")
-            console.print("[bold green]{11}[/bold green]: [bold cyan]Unlock Paid Cars[/bold cyan]         [bold red]4.000K[/bold red]")
-            console.print("[bold green]{12}[/bold green]: [bold cyan]Unlock all Cars[/bold cyan]          [bold red]3.000K[/bold red]")
-            console.print("[bold green]{13}[/bold green]: [bold cyan]Unlock all Cars Siren[/bold cyan]    [bold red]2.000K[/bold red]")
-            console.print("[bold green]{14}[/bold green]: [bold cyan]Unlock w16 Engine[/bold cyan]        [bold red]3.000K[/bold red]")
-            console.print("[bold green]{15}[/bold green]: [bold cyan]Unlock All Horns[/bold cyan]         [bold red]3.000K[/bold red]")
-            console.print("[bold green]{16}[/bold green]: [bold cyan]Unlock Disable Damage[/bold cyan]    [bold red]2.000K[/bold red]")
-            console.print("[bold green]{17}[/bold green]: [bold cyan]Unlock Unlimited Fuel[/bold cyan]    [bold red]2.000K[/bold red]")
-            console.print("[bold green]{18}[/bold green]: [bold cyan]Unlock House 3[/bold cyan]           [bold red]3.500K[/bold red]")
-            console.print("[bold green]{19}[/bold green]: [bold cyan]Unlock Smoke[/bold cyan]             [bold red]2.000K[/bold red]")
-            console.print("[bold green]{20}[/bold green]: [bold cyan]Change Race Wins[/bold cyan]         [bold red]1.000K[/bold red]")
-            console.print("[bold green]{21}[/bold green]: [bold cyan]Change Race Loses[/bold cyan]        [bold red]1.000K[/bold red]")
-            console.print("[bold green]{22}[/bold green]: [bold cyan]Clone Account[/bold cyan]            [bold red]5.000K[/bold red]")
-            console.print("[bold green]{0} [/bold green]: [bold cyan]Exit[/bold cyan]")
+            print(Colorate.Horizontal(Colors.rainbow, '{01}: Increase Money           1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{02}: Increase Coins           3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{03}: King Rank                4.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{04}: Change ID                3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{05}: Change Name              1.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{06}: Change Name (Rainbow)    1.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{07}: Number Plates            2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{08}: Account Delete           FREE'))
+            print(Colorate.Horizontal(Colors.rainbow, '{09}: ccount Register         FREE'))
+            print(Colorate.Horizontal(Colors.rainbow, '{10}: Delete Friends           5.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{11}: Unlock Paid Cars         4.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{12}: Unlock all Cars          3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{13}: Unlock all Cars Siren    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{14}: Unlock w16 Engine        3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{15}: Unlock All Horns         3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{16}: Unlock Disable Damage    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{17}: Unlock Unlimited Fuel    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{18}: Unlock House 3           3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{19}: Unlock Smoke             2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{20}: Change Race Wins         1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{21}: Change Race Loses        1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{22}: [bold cyan]Clone Account            5.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{0} : Exit'))
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
             
@@ -196,7 +196,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_money(amount):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -217,7 +217,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_coins(amount):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -238,7 +238,7 @@ if __name__ == "__main__":
                 sleep(2)
                 console.print("[bold cyan][%] Giving you a King Rank[/bold cyan]: ", end=None)
                 if cpm.set_player_rank():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -254,7 +254,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if len(new_id) >= 0 and len(new_id) <= 999999999 and (' ' in new_id) == False:
                     if cpm.set_player_localid(new_id.upper()):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -275,7 +275,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if len(new_name) >= 0 and len(new_name) <= 999999999:
                     if cpm.set_player_name(new_name):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -296,7 +296,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if len(new_name) >= 0 and len(new_name) <= 999999999:
                     if cpm.set_player_name(rainbow_gradient_string(new_name)):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -314,7 +314,7 @@ if __name__ == "__main__":
             elif service == 7: # Number Plates
                 console.print("[bold cyan][%] Giving you a Number Plates[/bold cyan]: ", end=None)
                 if cpm.set_player_plates():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -329,7 +329,7 @@ if __name__ == "__main__":
                 answ = Prompt.ask("[bold cyan][?] Do You want to Delete this Account ?![/bold cyan]", choices=["y", "n"], default="n")
                 if answ == "y":
                     cpm.delete()
-                    console.print("[bold cyan][%] Deleting Your Account[/bold cyan]: [bold green]SUCCESSFUL.[/bold green].")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
                 else: continue
@@ -340,7 +340,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Creating new Account[/bold cyan]: ", end=None)
                 status = cpm.register(acc2_email, acc2_password)
                 if status == 0:
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     console.print(f"[bold red]! INFO[/bold red]: In order to tweak this account with CPMEwan")
                     console.print("you most sign-in to the game using this account.")
@@ -359,7 +359,7 @@ if __name__ == "__main__":
             elif service == 10: # Delete Friends
                 console.print("[bold cyan][%] Deleting your Friends[/bold cyan]: ", end=None)
                 if cpm.delete_player_friends():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -373,7 +373,7 @@ if __name__ == "__main__":
                 console.print("[bold yellow]! Note[/bold yellow]: this function takes a while to complete, please don't cancel.", end=None)
                 console.print("[bold cyan][%] Unlocking All Paid Cars[/bold cyan]: ", end=None)
                 if cpm.unlock_paid_cars():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -386,7 +386,7 @@ if __name__ == "__main__":
             elif service == 12: # Unlock All Cars
                 console.print("[bold cyan][%] Unlocking All Cars[/bold cyan]: ", end=None)
                 if cpm.unlock_all_cars():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -399,7 +399,7 @@ if __name__ == "__main__":
             elif service == 13: # Unlock All Cars Siren
                 console.print("[bold cyan][%] Unlocking All Cars Siren[/bold cyan]: ", end=None)
                 if cpm.unlock_all_cars_siren():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -412,7 +412,7 @@ if __name__ == "__main__":
             elif service == 14: # Unlock w16 Engine
                 console.print("[bold cyan][%] Unlocking w16 Engine[/bold cyan]: ", end=None)
                 if cpm.unlock_w16():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -425,7 +425,7 @@ if __name__ == "__main__":
             elif service == 15: # Unlock All Horns
                 console.print("[bold cyan][%] Unlocking All Horns[/bold cyan]: ", end=None)
                 if cpm.unlock_horns():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -438,7 +438,7 @@ if __name__ == "__main__":
             elif service == 16: # Disable Engine Damage
                 console.print("[bold cyan][%] Unlocking Disable Damage[/bold cyan]: ", end=None)
                 if cpm.disable_engine_damage():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -451,7 +451,7 @@ if __name__ == "__main__":
             elif service == 17: # Unlimited Fuel
                 console.print("[bold cyan][%] Unlocking Unlimited Fuel[/bold cyan]: ", end=None)
                 if cpm.unlimited_fuel():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -464,7 +464,7 @@ if __name__ == "__main__":
             elif service == 18: # Unlock House 3
                 console.print("[bold cyan][%] Unlocking House 3[/bold cyan]: ", end=None)
                 if cpm.unlock_houses():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -477,7 +477,7 @@ if __name__ == "__main__":
             elif service == 19: # Unlock Smoke
                 console.print("[bold cyan][%] Unlocking Smoke[/bold cyan]: ", end=None)
                 if cpm.unlock_smoke():
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -493,7 +493,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Changing your data[/bold cyan]: ", end=None)
                 if amount > 0 and amount <= 999999999999999999999999999:
                     if cpm.set_player_wins(amount):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -514,7 +514,7 @@ if __name__ == "__main__":
                 console.print("[bold cyan][%] Changing your data[/bold cyan]: ", end=None)
                 if amount > 0 and amount <= 999999999999999999999:
                     if cpm.set_player_loses(amount):
-                        console.print("[bold green]SUCCESSFUL.[/bold green]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                         answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                         if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
@@ -535,7 +535,7 @@ if __name__ == "__main__":
                 to_password = prompt_valid_value("[bold][?] Account Password[/bold]", "Password", password=False)
                 console.print("[bold cyan][%] Cloning your account[/bold cyan]: ", end=None)
                 if cpm.account_clone(to_email, to_password):
-                    console.print("[bold green]SUCCESSFUL.[/bold green]")
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                     print(Colorate.Horizontal(Colors.rainbow, '======================================'))
                     answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
                     if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
