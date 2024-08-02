@@ -65,14 +65,13 @@ def load_player_data(cpm):
         
             print(Colorate.Horizontal(Colors.rainbow, '==========[ PLAYER DETAILS ]=========='))
             
-            console.print(
-                f"[bold green] Name   [/bold green]:[bold cyan] {(data.get('Name') if 'Name' in data else 'UNDEFINED')}[/bold cyan].")
+            print(Colorate.Horizontal(Colors.rainbow, f' Name   : {(data.get("Name") if "Name" in data else "UNDEFINED")}.'))
                 
-            console.print(f"[bold green] LocalID[/bold green]:[bold cyan] {data.get('localID')}[/bold cyan].")
+            print(Colorate.Horizontal(Colors.rainbow, f' LocalID: {data.get("localID")}.'))
             
-            print(Colorate.Horizontal(Colors.rainbow, f'Money  : {data.get("money")}.'))
+            print(Colorate.Horizontal(Colors.rainbow, f' Money  : {data.get("money")}.'))
             
-            console.print(f"[bold green] Coins  [/bold green]:[bold cyan] {data.get('coin')}[/bold cyan].")
+            print(Colorate.Horizontal(Colors.rainbow, f' Coins  : {data.get("coin")}.'))
             
         else:
             console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
