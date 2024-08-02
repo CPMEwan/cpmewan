@@ -192,7 +192,7 @@ if __name__ == "__main__":
             elif service == 1: # Increase Money
                 print(Colorate.Horizontal(Colors.rainbow, '[!] Insert how much money do you want.'))
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
-                print(Colorate.Horizontal(Colors.rainbow, '[%] Saving your data: ', end=None)
+                console.print("[bold cyan][%] Saving your data[/bold cyan]: ", end=None)
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_money(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
