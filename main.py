@@ -80,9 +80,6 @@ def load_player_data(cpm):
         print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
-
-pySystem.Clear()
-
 print("\n"*2    )
 print(pyColorate.Horizontal(pyColors.red_to_yellow, pyCenter.XCenter(text)))
 print("\n"*2)
