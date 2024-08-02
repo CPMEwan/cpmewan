@@ -94,7 +94,6 @@ def load_key_data(cpm):
     
     console.print(f"[bold green] Balance $  [/bold green]:[bold cyan] {(data.get('coins') if not data.get('is_unlimited') else 'Unlimited')}[/bold cyan].")
         
-        print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐞𝐧‌𝐮 ]==============='))
 
 def prompt_valid_value(content, tag, password=False):
     while True:
