@@ -80,7 +80,6 @@ def load_player_data(cpm):
         print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
-pyAnime.Fade(pyCenter.Center(banner), pyColors.purple_to_red, pyColorate.Vertical, enter=True)
 
 pySystem.Clear()
 
