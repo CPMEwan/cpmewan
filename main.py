@@ -192,17 +192,17 @@ if __name__ == "__main__":
             elif service == 1: # Increase Money
                 print(Colorate.Horizontal(Colors.rainbow, 'Insert how much money do you want.'))
                 amount = IntPrompt.ask("[bold][?] Amount[/bold]")
-                print(Colorate.Horizontal(Colors.rainbow, '[%] Saving your data: ', end=None))
+                console.print("[%] Saving your data: ", end=None)
                 if amount > 0 and amount <= 999999999:
                     if cpm.set_player_money(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[bold cyan][?] Do You want to Exit ?[/bold cyan]", choices=["y", "n"], default="n")
-                        if answ == "y": console.print(f"[bold yellow][!] Thank You for using our tool, please join our telegram channel[/bold yellow]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue].")
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'[!] Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
-                        console.print("[bold red]FAILED.[/bold red]")
-                        console.print("[bold yellow][!] Please try again.[/bold yellow]")
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, '[!] Please try again.'))
                         sleep(2)
                         continue
                 else:
