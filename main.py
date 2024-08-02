@@ -58,7 +58,7 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
 
-print(Center.XCenter(Colorate.Horizontal(Colors.rainbow, 'Hello, Welcome to Pystyle')))
+print(Center.XCenter(Colorate.Horizontal(Colors.rainbow, f'Hello, Welcome to Pystyle')))
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
