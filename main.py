@@ -9,19 +9,7 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-import datetime
-import time
-current_local_time = datetime.datetime.now()
-print "Current Local Time: ", current_local_time
 
-current_utc_time = datetime.datetime.utcnow()
-print "Current UTC Time: ", current_utc_time
-
-##Local​ Time to UTC Time
-current_local_time_timestamp = current_local_time.strftime("%s")
-print "current_local_time_timestamp: ", current_local_time_timestamp
-
-print "Current Local Time to UTC Time: ", datetime.datetime.utcfromtimestamp(float(current_local_time_timestamp))
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
