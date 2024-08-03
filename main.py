@@ -108,8 +108,8 @@ def load_client_details():
     data = response.json()
     print(Colorate.Horizontal(Colors.rainbow, f'Timezone   : {data.get("timezone")}/{data.get("city")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("countryCode")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Isp    : {data.get("isp")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'org    : {data.get("org")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def interpolate_color(start_color, end_color, fraction):
