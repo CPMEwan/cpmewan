@@ -60,7 +60,6 @@ def banner(console):
 current_clock = time.strftime("%H:%M:%S", current_time)  
   
 print("The current timezone is:", current_clock)  
-    print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
