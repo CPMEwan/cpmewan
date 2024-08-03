@@ -94,7 +94,6 @@ def load_key_data(cpm):
     
     print(Colorate.Horizontal(Colors.rainbow, f' Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
         
-    print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def prompt_valid_value(content, tag, password=False):
     while True:
