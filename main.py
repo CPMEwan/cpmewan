@@ -10,7 +10,6 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 import time
-print "ctime: ", time.ctime()
 
 print "\n===================================\n"
 
