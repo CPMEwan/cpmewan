@@ -106,8 +106,8 @@ def prompt_valid_value(content, tag, password=False):
 def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
-    print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")}/{data.get("regionName")}/{data.get("countryCode")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")}/{data.get("zip")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("zip")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
