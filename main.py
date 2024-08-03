@@ -9,9 +9,35 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-from datetime import datetime 
-import pytz 
-  
+import time
+print "ctime: ", time.ctime()
+
+print "\n===================================\n"
+
+#Get​ Current Local Time
+import datetime
+now = datetime.datetime.now()
+print "now: ", now
+print "Hour: ", now.hour
+print "Minute: ", now.minute
+print "Second: ", now.second
+#now​.year, now.month, now.day, now.microsecond
+
+
+print "\n===================================\n"
+
+#Get​ Current UTC Time
+utcnow = datetime.datetime.utcnow()
+print "utcnow: ", utcnow
+print "Hour: ", utcnow.hour
+print "Minute: ", utcnow.minute
+print "Second: ", utcnow.second
+
+print "\n===================================\n"
+
+#now​.strftime("%Y-%m-%d %H:%M:%S")
+
+
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
@@ -58,25 +84,6 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
-
-# get the standard UTC time 
-original = pytz.timezone('Asia/Kolkata') 
-  
-# it will get the time zone 
-# of the specified location 
-converted = pytz.timezone('US/Eastern') 
-  
-# print the date and time in 
-# specified format 
-dateTimeObj = datetime.now(original) 
-print(f"Original Date & Time: ", 
-      dateTimeObj.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
-  
-# converted 
-dateTimeObj = datetime.now(converted ) 
-print(f"Converted Date & Time: ", 
-      dateTimeObj.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
-
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
