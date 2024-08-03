@@ -83,15 +83,6 @@ def load_player_data(cpm):
 
 
 def load_key_data(cpm):
-
-def load_client_details():
-    response = requests.get("http://ip-api.com/json")
-    data = response.json()
-    console.print("[bold][red]================================================[/red][/bold]")
-    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
-    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
-    console.print("[bold][red]================================================[/red][/bold]", end="\n\n")
-    data = cpm.get_key_data()
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
@@ -110,7 +101,15 @@ def prompt_valid_value(content, tag, password=False):
             print(Colorate.Horizontal(Colors.rainbow, f'{tag} cannot be empty or just spaces. Please try again.'))
         else:
             return value
-
+def load_client_details():
+    response = requests.get("http://ip-api.com/json")
+    data = response.json()
+    console.print("[bold][red]================================================[/red][/bold]")
+    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
+    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
+    console.print("[bold][red]================================================[/red][/bold]", end="\n\n")
+    data = cpm.get_key_data()
+    
 def interpolate_color(start_color, end_color, fraction):
     start_rgb = tuple(int(start_color[i:i+2], 16) for i in (1, 3, 5))
     end_rgb = tuple(int(end_color[i:i+2], 16) for i in (1, 3, 5))
