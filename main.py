@@ -60,11 +60,6 @@ def banner(console):
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
-    def load_client_details():
-    data = response.json()
-    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
-    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
-    response = requests.get("http://ip-api.com/json")
     if response.get('ok'):
         data = response.get('data')
         if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
@@ -89,10 +84,8 @@ def load_player_data(cpm):
 def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
-    console.print("[bold][red]================================================[/red][/bold]")
-    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
-    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
-    console.print("[bold][red]================================================[/red][/bold]", end="\n\n")
+    print(Colorate.Horizontal(Colors.rainbow, f'Location[/bold][/green]: {data.get("city")}, {data.get("regionName")}, {data.get("countryCode")}')
+    print(Colorate.Horizontal(Colors.rainbow, f'ISP     : {data.get("isp")}')
 
 def load_key_data(cpm):
 
