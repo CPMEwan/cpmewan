@@ -141,7 +141,7 @@ if __name__ == "__main__":
                 sleep(2)
                 continue
             elif login_response == 103:
-                print(Colorate.Horizontal(Colors.rainbow, 'INVALID ACCESS KEY[/bold red].'))
+                print(Colorate.Horizontal(Colors.rainbow, 'INVALID ACCESS KEY.'))
                 sleep(2)
                 continue
             else:
