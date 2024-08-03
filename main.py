@@ -32,8 +32,6 @@ except Exception as e:
     from pystyle import Center as pyCenter
     from pystyle import System as pySystem
 
-VERSION_CHECK_URL = f"{server_online}/termux-version"
-
 def get_latest_version_info():
     try:
         response = httpx.get(VERSION_CHECK_URL)
