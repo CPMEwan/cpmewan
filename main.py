@@ -14,7 +14,7 @@ from datetime import datetime
 start_time = datetime.now()
 # do your work here
 end_time = datetime.now()
-print(f'Duration: {}'.format(end_time - start_time))
+console.print('Duration: {}'.format(end_time - start_time))
 
 from cpmewan import CPMEwan
 
