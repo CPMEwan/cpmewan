@@ -94,6 +94,7 @@ def load_key_data(cpm):
     
     print(Colorate.Horizontal(Colors.rainbow, f' Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
         
+    
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -105,8 +106,8 @@ def prompt_valid_value(content, tag, password=False):
 def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
-    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
-    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
+    print(Colorate.Horizontal(Colors.rainbow, f' Location: {data.get("city")}, {data.get("regionName")}, {data.get("countryCode")}'))
+    console.print(f"[bold][green] ISP[/bold][/green]     : {data.get('isp')}")
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def interpolate_color(start_color, end_color, fraction):
