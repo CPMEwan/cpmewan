@@ -107,11 +107,8 @@ def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
     print(Colorate.Horizontal(Colors.rainbow, f'Timezone   : {data.get("timezone")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'City       : {data.get("city")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Mobile   : {data.get("mobile")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Proxy     : {data.get("proxy")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Hosting   : {data.get("hosting")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")}{data.get("countryCode")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'City       : {data.get("city")}{data.get("city")}.'))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def interpolate_color(start_color, end_color, fraction):
