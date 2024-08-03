@@ -9,34 +9,19 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-import time
-
-print "\n===================================\n"
-
-#Get​ Current Local Time
 import datetime
-now = datetime.datetime.now()
-print "now: ", now
-print "Hour: ", now.hour
-print "Minute: ", now.minute
-print "Second: ", now.second
-#now​.year, now.month, now.day, now.microsecond
+import time
+current_local_time = datetime.datetime.now()
+print "Current Local Time: ", current_local_time
 
+current_utc_time = datetime.datetime.utcnow()
+print "Current UTC Time: ", current_utc_time
 
-print "\n===================================\n"
+##Local​ Time to UTC Time
+current_local_time_timestamp = current_local_time.strftime("%s")
+print "current_local_time_timestamp: ", current_local_time_timestamp
 
-#Get​ Current UTC Time
-utcnow = datetime.datetime.utcnow()
-print "utcnow: ", utcnow
-print "Hour: ", utcnow.hour
-print "Minute: ", utcnow.minute
-print "Second: ", utcnow.second
-
-print "\n===================================\n"
-
-#now​.strftime("%Y-%m-%d %H:%M:%S")
-
-
+print "Current Local Time to UTC Time: ", datetime.datetime.utcfromtimestamp(float(current_local_time_timestamp))
 from cpmewan import CPMEwan
 
 __CHANNEL_USERNAME__ = "Ewan1999Ewan"
