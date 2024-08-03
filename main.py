@@ -84,8 +84,10 @@ def load_player_data(cpm):
 def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
-    print(Colorate.Horizontal(Colors.rainbow, f'Location[/bold][/green]: {data.get("city")}, {data.get("regionName")}, {data.get("countryCode")}')
-    print(Colorate.Horizontal(Colors.rainbow, f'ISP     : {data.get("isp")}')
+    console.print("[bold][red]============================================[/red][/bold]")
+    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
+    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
+    console.print("[bold][red]============================================[/red][/bold]", end="\n\n")
 
 def load_key_data(cpm):
 
