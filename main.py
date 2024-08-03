@@ -81,6 +81,7 @@ def load_player_data(cpm):
         print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
         exit(1)
 
+
 def load_key_data(cpm):
 
     data = cpm.get_key_data()
@@ -94,14 +95,6 @@ def load_key_data(cpm):
     print(Colorate.Horizontal(Colors.rainbow, f' Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
         
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
-    
-    def load_client_details():
-    response = requests.get("http://ip-api.com/json")
-    data = response.json()
-    console.print("[bold][red]============================================[/red][/bold]")
-    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
-    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
-    console.print("[bold][red]============================================[/red][/bold]", end="\n\n")
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -110,6 +103,13 @@ def prompt_valid_value(content, tag, password=False):
             print(Colorate.Horizontal(Colors.rainbow, f'{tag} cannot be empty or just spaces. Please try again.'))
         else:
             return value
+def load_client_details():
+    response = requests.get("http://ip-api.com/json")
+    data = response.json()
+    console.print("[bold][red]============================================[/red][/bold]")
+    console.print(f"[bold][green]Location[/bold][/green]: {data.get('city')}, {data.get('regionName')}, {data.get('countryCode')}")
+    console.print(f"[bold][green]ISP[/bold][/green]     : {data.get('isp')}")
+    console.print("[bold][red]============================================[/red][/bold]", end="\n\n")
 
 def interpolate_color(start_color, end_color, fraction):
     start_rgb = tuple(int(start_color[i:i+2], 16) for i in (1, 3, 5))
