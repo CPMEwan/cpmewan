@@ -9,6 +9,9 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
+import atexit
+from time import clock
+
 
 from cpmewan import CPMEwan
 
@@ -56,7 +59,31 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
+def secondsToStr(t):
+    return "%d:%02d:%02d.%03d" % \
+        reduce(lambda ll,b : divmod(ll[0],b) + ll[1:],
+            [(t*1000,),1000,60,60])
 
+line = "="*40
+def log(s, elapsed=None):
+    print line
+    print secondsToStr(clock()), '-', s
+    if elapsed:
+        print "Elapsed time:", elapsed
+    print line
+    print
+
+def endlog():
+    end = clock()
+    elapsed = end-start
+    log("End Program", secondsToStr(elapsed))
+
+def now():
+    return secondsToStr(clock())
+
+start = clock()
+atexit.register(endlog)
+log("Start Program")
 def load_player_data(cpm):
     response = cpm.get_player_data()
     if response.get('ok'):
