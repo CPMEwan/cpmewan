@@ -107,7 +107,7 @@ def load_client_details():
     response = requests.get("http://ip-api.com/json")
     data = response.json()
     print(Colorate.Horizontal(Colors.rainbow, f'Timezone   : {data.get("timezone")}/{data.get("city")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("currency")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")}{data.get("currency")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
