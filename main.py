@@ -9,15 +9,26 @@ from rich.text import Text
 from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
-import datetime 
+from datetime import datetime 
 import pytz 
   
-dtObject_local = datetime.datetime.now() 
-dtObject_utc = datetime.datetime.now(pytz.utc) 
+# get the standard UTC time 
+original = pytz.timezone('Asia/Kolkata') 
   
-print("time: ("dtObject_local").")
-print("time: ("dtObject_utc")."))
-
+# it will get the time zone 
+# of the specified location 
+converted = pytz.timezone('US/Eastern') 
+  
+# print the date and time in 
+# specified format 
+dateTimeObj = datetime.now(original) 
+print("Original Date & Time: ", 
+      dateTimeObj.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
+  
+# converted 
+dateTimeObj = datetime.now(converted ) 
+print("Converted Date & Time: ", 
+      dateTimeObj.strftime('%Y:%m:%d %H:%M:%S %Z %z')) 
 
 from cpmewan import CPMEwan
 
