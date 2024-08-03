@@ -13,8 +13,6 @@ from pystyle import Colors, Colorate
 from datetime import datetime
 start_time = datetime.now()
 # do your work here
-end_time = datetime.now()
-console.print('Duration: {}'.format(end_time - start_time))
 
 from cpmewan import CPMEwan
 
@@ -62,6 +60,8 @@ def banner(console):
     print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
     print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
+end_time = datetime.now()
+print('Duration: {}'.format(end_time - start_time))
 
 def load_player_data(cpm):
     response = cpm.get_player_data()
