@@ -84,17 +84,24 @@ def load_player_data(cpm):
 
 def load_key_data(cpm):
 
-    data = cpm.get_key_data() def load_key_data(cpm): def load_client_details(): response = requests.get("http://ip-api.com/json") data = response.json()
+    data = cpm.get_key_data()
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
-    print(Colorate.Horizontal(Colors.rainbow, f'Access Key : {data.get("access_key")} : {data.get("isp")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Access Key : {data.get("access_key")}.'))
     
     print(Colorate.Horizontal(Colors.rainbow, f'Telegram ID: {data.get("telegram_id")}.'))
     
     print(Colorate.Horizontal(Colors.rainbow, f'Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
         
-    
+    def load_client_details():
+    response = requests.get("http://ip-api.com/json")
+    data = response.json()
+    print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("zip")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def prompt_valid_value(content, tag, password=False):
     while True:
@@ -103,14 +110,6 @@ def prompt_valid_value(content, tag, password=False):
             print(Colorate.Horizontal(Colors.rainbow, f'{tag} cannot be empty or just spaces. Please try again.'))
         else:
             return value
-def load_client_details():
-    response = requests.get("http://ip-api.com/json")
-    data = response.json()
-    print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("zip")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def interpolate_color(start_color, end_color, fraction):
     start_rgb = tuple(int(start_color[i:i+2], 16) for i in (1, 3, 5))
