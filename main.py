@@ -66,7 +66,7 @@ def load_player_data(cpm):
         
             print(Colorate.Horizontal(Colors.rainbow, '==========[ PLAYER DETAILS ]=========='))
             
-            print(Colorate.Horizontal(Colors.rainbow, 'Name   : {(data.get("Name") if "Name" in data else "UNDEFINED")}.'))
+            print(Colorate.Horizontal(Colors.rainbow, f'Name   : {(data.get("Name") if "Name" in data else "UNDEFINED")}.'))
                 
             print(Colorate.Horizontal(Colors.rainbow, f'LocalID: {data.get("localID")}.'))
             
@@ -126,7 +126,7 @@ def rainbow_gradient_string(customer_name):
     for i, char in enumerate(customer_name):
         fraction = i / max(num_chars - 1, 1)
         interpolated_color = interpolate_color(start_color, end_color, fraction)
-        modified_string += f'[{interpolated_color}]{char}'
+        modified_string += '[{interpolated_color}]{char}'
     return modified_string
 
 if __name__ == "__main__":
