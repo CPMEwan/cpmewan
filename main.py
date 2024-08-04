@@ -104,14 +104,39 @@ def prompt_valid_value(content, tag, password=False):
         else:
             return value
             
-def load_client_details():
-    response = requests.get("http://ip-api.com/json")
-    data = response.json()
-    print(Colorate.Horizontal(Colors.rainbow, '=============[ 𝐋𝐎𝐂𝐀𝐓𝐈𝐎𝐍 ]============='))
-    print(Colorate.Horizontal(Colors.rainbow, f'Location.    : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Country      : {data.get("country")} {data.get("zip")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'Ip Address   : {data.get("ip")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
+def get_info_by_ip(ip='127.0.0.1'):
+    try:
+        response = requests.get(url=f'http://ip-api.com/json/{ip}').json()
+        # print(response)
+        
+        data = {
+            '[IP]': response.get('query'),
+            '[Int prov]': response.get('isp'),
+            '[Org]': response.get('org'),
+            '[Country]': response.get('country'),
+            '[Region Name]': response.get('regionName'),
+            '[City]': response.get('city'),
+            '[ZIP]': response.get('zip'),
+            '[Lat]': response.get('lat'),
+            '[Lon]': response.get('lon'),
+        }
+        
+        for k, v in data.items():
+            print(f'{k} : {v}')
+        
+        area = folium.Map(location=[response.get('lat'), response.get('lon')])
+        area.save(f'{response.get("query")}_{response.get("city")}.html')
+        
+    except requests.exceptions.ConnectionError:
+        print('[!] Please check your connection!')
+        
+        
+def main():
+    preview_text = Figlet(font='slant')
+    print(preview_text.renderText('IP INFO'))
+    ip = input('Please enter a target IP: ')
+    
+    
 
 def interpolate_color(start_color, end_color, fraction):
     start_rgb = tuple(int(start_color[i:i+2], 16) for i in (1, 3, 5))
@@ -166,7 +191,7 @@ if __name__ == "__main__":
             banner(console)
             load_player_data(cpm)
             load_key_data(cpm)
-            load_client_details()
+            get_info_by_ip(ip=ip)
             choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
             print(Colorate.Horizontal(Colors.rainbow, '{01}: Increase Money           1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{02}: Increase Coins           3.500K'))
