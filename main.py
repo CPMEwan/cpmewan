@@ -85,6 +85,7 @@ def load_player_data(cpm):
 def load_key_data(cpm):
 
     data = cpm.get_key_data()
+    data = response.json()
     
     print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
     
