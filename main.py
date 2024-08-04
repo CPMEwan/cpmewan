@@ -109,7 +109,6 @@ def load_client_details():
     print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("zip")}.'))
     print(Colorate.Horizontal(Colors.rainbow, f'Isp        : {data.get("isp")}.'))
-    print(Colorate.Horizontal(Colors.rainbow, f'org        : {data.get("org")}.'))
     print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
 
 def interpolate_color(start_color, end_color, fraction):
@@ -121,8 +120,8 @@ def interpolate_color(start_color, end_color, fraction):
 def rainbow_gradient_string(customer_name):
     modified_string = ""
     num_chars = len(customer_name)
-    start_color = f"{:06x}".format(random.randint(0, 0xFFFFFF))
-    end_color = f"{:06x}".format(random.randint(0, 0xFFFFFF))
+    start_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
+    end_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
     for i, char in enumerate(customer_name):
         fraction = i / max(num_chars - 1, 1)
         interpolated_color = interpolate_color(start_color, end_color, fraction)
