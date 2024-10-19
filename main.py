@@ -1,735 +1,560 @@
-# Enc by : Ryougaa__XD
-# Github : https://github.com/ferlyafriliyan
-# Terima kasih sudah menggunakan script ini :)
+#!/usr/bin/python
 
-# Variable teks : 361 Line
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ryougaa__=("https://ferlyafriliyan.vercel.app");Hidekii_=("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
+import random
+import requests
+from time import sleep
+import os, signal, sys
+from rich.console import Console
+from rich.prompt import Prompt, IntPrompt
+from rich.text import Text
+from rich.style import Style
+import pystyle
+from pystyle import Colors, Colorate
 
-try:
-	import marshal, zlib, base64;Ryougaa_Hidekii__=(marshal.loads(zlib.decompress(base64.b64decode(b'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'))));exec(Ryougaa_Hidekii__)
-except KeyboardInterrupt:
-	exit()
+from cpmewan import CPMEwan
 
-# Variable teks : 361 Line
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
-Ferly__ = ("https://ferlyafriliyan.vercel.app");Dev__ = ("https://github.com/ferlyafriliyan");["from","import","as","marshal","base64","zlib","((","))","exec","exec(",]
+__CHANNEL_USERNAME__ = "Ewan1999Ewan"
+__GROUP_USERNAME__   = "Ewan19_99Ewan"
 
+def signal_handler(sig, frame):
+    print("\n Bye Bye...")
+    sys.exit(0)
+
+def gradient_text(text, colors):
+    lines = text.splitlines()
+    height = len(lines)
+    width = max(len(line) for line in lines)
+    colorful_text = Text()
+    for y, line in enumerate(lines):
+        for x, char in enumerate(line):
+            if char != ' ':
+                color_index = int(((x / (width - 1 if width > 1 else 1)) + (y / (height - 1 if height > 1 else 1))) * 0.5 * (len(colors) - 1))
+                color_index = min(max(color_index, 0), len(colors) - 1)  # Ensure the index is within bounds
+                style = Style(color=colors[color_index])
+                colorful_text.append(char, style=style)
+            else:
+                colorful_text.append(char)
+        colorful_text.append("\n")
+    return colorful_text
+
+def banner(console):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    brand_name =  "▄████▄   ██▓███   ███▄ ▄███▓▓█████  █     █░ ▄▄▄       ███▄    █ \n"
+    brand_name += "▒██▀ ▀█  ▓██░  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▓█░ █ ░█░▒████▄     ██ ▀█   █ \n"
+    brand_name += "▒▓█    ▄ ▓██░ ██▓▒▓██    ▓██░▒███   ▒█░ █ ░█ ▒██  ▀█▄  ▓██  ▀█ ██▒\n"
+    brand_name += "▒▓▓▄ ▄██▒▒██▄█▓▒ ▒▒██    ▒██ ▒▓█  ▄ ░█░ █ ░█ ░██▄▄▄▄██ ▓██▒  ▐▌██▒\n"
+    brand_name += "▒ ▓███▀ ░▒██▒ ░  ░▒██▒   ░██▒░▒████▒░░██▒██▓  ▓█   ▓██▒▒██░   ▓██░\n"
+    brand_name += "░ ░▒ ▒  ░▒▓▒░ ░  ░░ ▒░   ░  ░░░ ▒░ ░░ ▓░▒ ▒   ▒▒   ▓▒█░░ ▒░   ▒ ▒ \n"
+    colors = [
+        "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
+        "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
+        "rgb(255,0,255)"
+    ]
+    colorful_text = gradient_text(brand_name, colors)
+    console.print(colorful_text)
+    print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
+    print(Colorate.Horizontal(Colors.rainbow, '\t         𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋'))
+    print(Colorate.Horizontal(Colors.rainbow, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
+    print(Colorate.Horizontal(Colors.rainbow, f' ‌           𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @{__CHANNEL_USERNAME__} 𝐎𝐫 @{__GROUP_USERNAME__}'))
+    print(Colorate.Horizontal(Colors.rainbow, '=================================================================='))
+
+def load_player_data(cpm):
+    response = cpm.get_player_data()
+    if response.get('ok'):
+        data = response.get('data')
+        if 'floats' in data and 'localID' in data and 'money' in data and 'coin' in data:
+        
+            print(Colorate.Horizontal(Colors.rainbow, '==========[ PLAYER DETAILS ]=========='))
+            
+            print(Colorate.Horizontal(Colors.rainbow, f'Name   : {(data.get("Name") if "Name" in data else "UNDEFINED")}.'))
+                
+            print(Colorate.Horizontal(Colors.rainbow, f'LocalID: {data.get("localID")}.'))
+            
+            print(Colorate.Horizontal(Colors.rainbow, f'Money  : {data.get("money")}.'))
+            
+            print(Colorate.Horizontal(Colors.rainbow, f'Coins  : {data.get("coin")}.'))
+            
+        else:
+            print(Colorate.Horizontal(Colors.rainbow, '! ERROR: new accounts most be signed-in to the game at least once !.'))
+            exit(1)
+    else:
+        print(Colorate.Horizontal(Colors.rainbow, '! ERROR: seems like your login is not properly set !.'))
+        exit(1)
+
+
+def load_key_data(cpm):
+
+    data = cpm.get_key_data()
+    
+    print(Colorate.Horizontal(Colors.rainbow, '========[ ACCESS KEY DETAILS ]========'))
+    
+    print(Colorate.Horizontal(Colors.rainbow, f'Access Key : {data.get("access_key")}.'))
+    
+    print(Colorate.Horizontal(Colors.rainbow, f'Telegram ID: {data.get("telegram_id")}.'))
+    
+    print(Colorate.Horizontal(Colors.rainbow, f'Balance $  : {(data.get("coins") if not data.get("is_unlimited") else "Unlimited")}.'))
+        
+    
+
+def prompt_valid_value(content, tag, password=False):
+    while True:
+        value = Prompt.ask(content, password=password)
+        if not value or value.isspace():
+            print(Colorate.Horizontal(Colors.rainbow, f'{tag} cannot be empty or just spaces. Please try again.'))
+        else:
+            return value
+            
+def load_client_details():
+    response = requests.get("http://ip-api.com/json")
+    data = response.json()
+    print(Colorate.Horizontal(Colors.rainbow, '=============[ 𝐋𝐎𝐂𝐀𝐓𝐈𝐎𝐍 ]============='))
+    print(Colorate.Horizontal(Colors.rainbow, f'Ip Address : {data.get("query")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Location   : {data.get("city")} {data.get("regionName")} {data.get("countryCode")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, f'Country    : {data.get("country")} {data.get("zip")}.'))
+    print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐌𝐄𝐍𝐔 ]==============='))
+
+def interpolate_color(start_color, end_color, fraction):
+    start_rgb = tuple(int(start_color[i:i+2], 16) for i in (1, 3, 5))
+    end_rgb = tuple(int(end_color[i:i+2], 16) for i in (1, 3, 5))
+    interpolated_rgb = tuple(int(start + fraction * (end - start)) for start, end in zip(start_rgb, end_rgb))
+    return "{:02x}{:02x}{:02x}".format(*interpolated_rgb)
+
+def rainbow_gradient_string(customer_name):
+    modified_string = ""
+    num_chars = len(customer_name)
+    start_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
+    end_color = "{:06x}".format(random.randint(0, 0xFFFFFF))
+    for i, char in enumerate(customer_name):
+        fraction = i / max(num_chars - 1, 1)
+        interpolated_color = interpolate_color(start_color, end_color, fraction)
+        modified_string += f'[{interpolated_color}]{char}'
+    return modified_string
+
+if __name__ == "__main__":
+    console = Console()
+    signal.signal(signal.SIGINT, signal_handler)
+    while True:
+        banner(console)
+        acc_email = prompt_valid_value("[bold][?] Account Email[/bold]", "Email", password=False)
+        acc_password = prompt_valid_value("[bold][?] Account Password[/bold]", "Password", password=False)
+        acc_access_key = prompt_valid_value("[bold][?] Access Key[/bold]", "Access Key", password=False)
+        console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
+        cpm = CPMEwan(acc_access_key)
+        login_response = cpm.login(acc_email, acc_password)
+        if login_response != 0:
+            if login_response == 100:
+                print(Colorate.Horizontal(Colors.rainbow, 'ACCOUNT NOT FOUND.'))
+                sleep(2)
+                continue
+            elif login_response == 101:
+                print(Colorate.Horizontal(Colors.rainbow, 'WRONG PASSWORD.'))
+                sleep(2)
+                continue
+            elif login_response == 103:
+                print(Colorate.Horizontal(Colors.rainbow, 'INVALID ACCESS KEY.'))
+                sleep(2)
+                continue
+            else:
+                print(Colorate.Horizontal(Colors.rainbow, 'TRY AGAIN.'))
+                print(Colorate.Horizontal(Colors.rainbow, '! Note: make sure you filled out the fields !.'))
+                sleep(2)
+                continue
+        else:
+            print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL.'))
+            sleep(2)
+        while True:
+            banner(console)
+            load_player_data(cpm)
+            load_key_data(cpm)
+            load_client_details()
+            choices = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22"]
+            print(Colorate.Horizontal(Colors.rainbow, '{01}: Increase Money           1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{02}: Increase Coins           3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{03}: King Rank                4.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{04}: Change ID                3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{05}: Change Name              1.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{06}: Change Name (Rainbow)    1.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{07}: Number Plates            2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{08}: Account Delete           FREE'))
+            print(Colorate.Horizontal(Colors.rainbow, '{09}: ccount Register          FREE'))
+            print(Colorate.Horizontal(Colors.rainbow, '{10}: Delete Friends           5.00'))
+            print(Colorate.Horizontal(Colors.rainbow, '{11}: Unlock Paid Cars         4.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{12}: Unlock all Cars          3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{13}: Unlock all Cars Siren    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{14}: Unlock w16 Engine        3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{15}: Unlock All Horns         3.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{16}: Unlock Disable Damage    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{17}: Unlock Unlimited Fuel    2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{18}: Unlock House 3           3.500K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{19}: Unlock Smoke             2.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{20}: Change Race Wins         1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{21}: Change Race Loses        1.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{22}: Clone Account            5.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{0} : Exit'))
+            
+            print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
+            
+            service = IntPrompt.ask(f"[bold][?] Select a Service [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
+            
+            print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
+            
+            if service == 0: # Exit
+                print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channel: @{__CHANNEL_USERNAME__}.'))
+            elif service == 1: # Increase Money
+                print(Colorate.Horizontal(Colors.rainbow, '[?] Insert how much money do you want.'))
+                amount = IntPrompt.ask("[?] Amount")
+                console.print("[%] Saving your data: ", end=None)
+                if amount > 0 and amount <= 999999999:
+                    if cpm.set_player_money(amount):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 2: # Increase Coins
+                print(Colorate.Horizontal(Colors.rainbow, '[?] Insert how much coins do you want.'))
+                amount = IntPrompt.ask("[?] Amount")
+                console.print("[%] Saving your data: ", end=None)
+                if amount > 0 and amount <= 999999999:
+                    if cpm.set_player_coins(amount):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 3: # King Rank
+                console.print("[bold red][!] Note:[/bold red]: if the king rank doesn't appear in game, close it and open few times.", end=None)
+                console.print("[bold red][!] Note:[/bold red]: please don't do King Rank on same account twice.", end=None)
+                sleep(2)
+                console.print("[%] Giving you a King Rank: ", end=None)
+                if cpm.set_player_rank():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 4: # Change ID
+                print(Colorate.Horizontal(Colors.rainbow, '[?] Enter your new ID.'))
+                new_id = Prompt.ask("[?] ID")
+                console.print("[%] Saving your data: ", end=None)
+                if len(new_id) >= 0 and len(new_id) <= 999999999 and (' ' in new_id) == False:
+                    if cpm.set_player_localid(new_id.upper()):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please use valid ID.'))
+                    sleep(2)
+                    continue
+            elif service == 5: # Change Name
+                print(Colorate.Horizontal(Colors.rainbow, '[?] Enter your new Name.'))
+                new_name = Prompt.ask("[?] Name")
+                console.print("[%] Saving your data: ", end=None)
+                if len(new_name) >= 0 and len(new_name) <= 999999999:
+                    if cpm.set_player_name(new_name):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 6: # Change Name Rainbow
+                print(Colorate.Horizontal(Colors.rainbow, '[?] Enter your new Rainbow Name.'))
+                new_name = Prompt.ask("[?] Name")
+                console.print("[%] Saving your data: ", end=None)
+                if len(new_name) >= 0 and len(new_name) <= 999999999:
+                    if cpm.set_player_name(rainbow_gradient_string(new_name)):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 7: # Number Plates
+                console.print("[%] Giving you a Number Plates: ", end=None)
+                if cpm.set_player_plates():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 8: # Account Delete
+                print(Colorate.Horizontal(Colors.rainbow, '[!] After deleting your account there is no going back !!.'))
+                answ = Prompt.ask("[?] Do You want to Delete this Account ?!", choices=["y", "n"], default="n")
+                if answ == "y":
+                    cpm.delete()
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                else: continue
+            elif service == 9: # Account Register
+                print(Colorate.Horizontal(Colors.rainbow, '[!] Registring new Account.'))
+                acc2_email = prompt_valid_value("[?] Account Email", "Email", password=False)
+                acc2_password = prompt_valid_value("[?] Account Password", "Password", password=False)
+                console.print("[%] Creating new Account: ", end=None)
+                status = cpm.register(acc2_email, acc2_password)
+                if status == 0:
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    print(Colorate.Horizontal(Colors.rainbow, f'INFO: In order to tweak this account with CPMEwan.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'you most sign-in to the game using this account.'))
+                    sleep(2)
+                    continue
+                elif status == 105:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'This email is already exists !.'))
+                    sleep(2)
+                    continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 10: # Delete Friends
+                console.print("[%] Deleting your Friends: ", end=None)
+                if cpm.delete_player_friends():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 11: # Unlock All Paid Cars
+                console.print("[!] Note: this function takes a while to complete, please don't cancel.", end=None)
+                console.print("[%] Unlocking All Paid Cars: ", end=None)
+                if cpm.unlock_paid_cars():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 12: # Unlock All Cars
+                console.print("[%] Unlocking All Cars: ", end=None)
+                if cpm.unlock_all_cars():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 13: # Unlock All Cars Siren
+                console.print("[%] Unlocking All Cars Siren: ", end=None)
+                if cpm.unlock_all_cars_siren():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 14: # Unlock w16 Engine
+                console.print("[%] Unlocking w16 Engine: ", end=None)
+                if cpm.unlock_w16():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 15: # Unlock All Horns
+                console.print("[%] Unlocking All Horns: ", end=None)
+                if cpm.unlock_horns():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 16: # Disable Engine Damage
+                console.print("[%] Unlocking Disable Damage: ", end=None)
+                if cpm.disable_engine_damage():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 17: # Unlimited Fuel
+                console.print("[%] Unlocking Unlimited Fuel: ", end=None)
+                if cpm.unlimited_fuel():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 18: # Unlock House 3
+                console.print("[%] Unlocking House 3: ", end=None)
+                if cpm.unlock_houses():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 19: # Unlock Smoke
+                console.print("[%] Unlocking Smoke: ", end=None)
+                if cpm.unlock_smoke():
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                    sleep(2)
+                    continue
+            elif service == 20: # Change Races Wins
+                print(Colorate.Horizontal(Colors.rainbow, '[!] Insert how much races you win.'))
+                amount = IntPrompt.ask("[?] Amount")
+                console.print("[%] Changing your data: ", end=None)
+                if amount > 0 and amount <= 999999999999999999999999999:
+                    if cpm.set_player_wins(amount):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, 'Please try again.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, '[!] Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 21: # Change Races Loses
+                print(Colorate.Horizontal(Colors.rainbow, '[!] Insert how much races you lose.'))
+                amount = IntPrompt.ask("[?] Amount")
+                console.print("[%] Changing your data: ", end=None)
+                if amount > 0 and amount <= 999999999999999999999:
+                    if cpm.set_player_loses(amount):
+                        print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                        print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                        answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                        if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                        else: continue
+                    else:
+                        print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                        print(Colorate.Horizontal(Colors.rainbow, '[!] Please use valid values.'))
+                        sleep(2)
+                        continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, '[!] Please use valid values.'))
+                    sleep(2)
+                    continue
+            elif service == 22: # Clone Account
+                print(Colorate.Horizontal(Colors.rainbow, '[!] Please Enter Account Detalis.'))
+                to_email = prompt_valid_value("[?] Account Email", "Email", password=False)
+                to_password = prompt_valid_value("[?] Account Password", "Password", password=False)
+                console.print("[%] Cloning your account: ", end=None)
+                if cpm.account_clone(to_email, to_password):
+                    print(Colorate.Horizontal(Colors.rainbow, 'SUCCESSFUL'))
+                    print(Colorate.Horizontal(Colors.rainbow, '======================================'))
+                    answ = Prompt.ask("[?] Do You want to Exit ?", choices=["y", "n"], default="n")
+                    if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f'Thank You for using our tool, please join our telegram channe: @{__CHANNEL_USERNAME__}.'))
+                    else: continue
+                else:
+                    print(Colorate.Horizontal(Colors.rainbow, 'FAILED.'))
+                    print(Colorate.Horizontal(Colors.rainbow, '[!] Please use valid values.'))
+                    sleep(2)
+                    continue
+            else: continue
+            break
+        break
